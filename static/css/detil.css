@@ -1,0 +1,171 @@
+
+.nwrap{
+  max-width: 1320px;
+  margin: 0 auto;
+}
+/* header */
+.topheader {
+  width: 100%;
+  position: relative;
+  background-color: rgba(255, 255, 255, .8);
+  height: 13rem;
+  padding-top: 2.5rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+  transition: all .8s;
+}
+.header-fixed-top{
+  position: fixed;
+}
+.topheader .nwrap{
+  display: flex;
+  display: -webkit-flex;
+}
+.topheader .logo-wrap{
+  width: 40.5rem;
+}
+.topheader .logo-wrap .logo,
+.topheader .logo-wrap .slogan-2{
+  display: inline-block;
+  height: 8rem;
+  position: relative;
+}
+.topheader .logo-wrap .logo{
+  background:#6ea082 url(../img/logo/logo-1.png) no-repeat center center;
+  background-size: 70% auto;
+  width: 8rem;
+  border-radius: 50%;
+}
+.topheader .logo-wrap .slogan-2{
+  width: 15.5rem;
+  background: url(../img/logo/phone-2.png) no-repeat right center;
+  background-size: 100% auto;
+  margin-left: .8rem;
+}
+.topnav,
+.topnav ul,
+.topnav>ul>li> a{
+  height: 10.5rem;
+}
+.topnav,
+.topnav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+.topnav>ul{
+  display: flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  /* background-color: rgba(0, 0, 0, .02) */
+}
+.topnav>ul>li{
+  flex: 1;
+  position: relative;
+}
+.topnav>ul>li> a,
+.topnav>ul>li> a > span{
+  display: block;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.topnav>ul>li> a{
+  line-height: 1.8rem;
+  padding-top: 3.075rem;
+  color: #333;
+  text-decoration: none;
+  border-radius: .5rem .5rem 0 0;
+  border:rgba(255, 255, 255, 0) solid 1px;
+  border-bottom: none;
+}
+.topnav>ul>li> a:hover,
+.topnav>ul>li.cur> a{
+  border-color:#6ea082;
+}
+/* .topnav>ul>li.cur> a{
+  border-color:#6ea082;
+  color: #fff;
+  background-color: #6ea082;
+} */
+.topnav>ul .subnav{
+  position: absolute;
+  top: 10.5rem;
+  width: 100%;
+  /* display: none; */
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.topnav>ul > li.cur .subnav{
+  display: block;
+  height: 15rem;
+  opacity: 1;
+}
+.topnav .subnav li{
+  position: relative;
+}
+.topnav .subnav li a{
+  position: relative;
+  color: #fff;
+  line-height: 3rem;
+  height: 3rem;
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding-left: 1rem;
+  background-color: rgba(110, 160, 130, .9);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.topnav .subnav li a:hover{
+  background-color: rgb(61, 119, 84);
+}
+
+.header-sm{
+  height: 6rem;
+  padding-top:1rem;
+}
+.header-sm .logo-wrap .logo,
+.header-sm .logo-wrap .slogan-2{
+  height: 4rem;
+  transition: all .8s;
+}
+.header-sm .topnav, .topnav ul,
+.header-sm .topnav>ul>li> a{
+  height: 4.5rem;
+  transition: all .5s;
+}
+.header-sm .logo-wrap .logo{
+  width: 4rem;
+}
+.header-sm .logo-wrap .slogan-2{
+  background-size: auto 100%;
+  background-position: left center;
+}
+.header-sm .topnav, .topnav ul,
+.header-sm .topnav>ul>li> a{
+  height: 4rem;
+}
+.header-sm .topnav>ul>li> a,
+.header-sm .topnav>ul>li> a > span{
+  font-size: 1.3rem;
+}
+.header-sm .topnav>ul>li> a{
+  padding-top: .5rem;
+  line-height: 1.8rem
+}
+.header-sm .topnav>ul .subnav{
+  top: 4rem;
+}
+
+.n-containter{
+  padding: 0;
+}
+
+.article-wrap{
+  min-height: 30rem;
+}
