@@ -278,7 +278,7 @@ body{
 }
 .side-menus ul li a .txt{
   font-weight: 400;
-  /* font-family: '方正博雅宋_GBK'; */
+  font-family: '方正博雅宋_GBK';
 }
 .side-menus ul li a span.letter-2{
   letter-spacing: 1em
