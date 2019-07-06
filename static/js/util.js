@@ -35,12 +35,13 @@ function init () {
     banner()
     recommend('.recommend-1', '.s-pagination-1')
     recommend('.recommend-2', '.s-pagination-2')
+    recommend('.recommend-5', '.s-pagination-5')
 }
 function banner () {
     new Swiper('.banner', {
         // autoplay: true,
         loop : true,
-        hashnav:true,
+        // hashnav:true,
         pagination: '.swiper-pagination',
         nextButton: '.s-next',
         prevButton: '.s-prev',
