@@ -15,8 +15,7 @@ function app () {
 //     }
 // });
 function init () {
-    // $('.banner').width(bWidth).height(bHeight)
-    $('.page').height(bHeight);
+  
     $('.tool-float .phone').hover(function(){
         // $(this).toggleClass('hover')
         $(this).stop().animate({
@@ -29,32 +28,47 @@ function init () {
     });
     // 通用模块 滚动到顶部
 	$("#backToTop").on("click",function(){
-	    $('html,body').animate({scrollTop:0},800);
+	    $('.containter').animate({'top':0},800);
 	    return false;
     });
-    banner()
-    recommend('.recommend-1', '.s-pagination-1')
-    recommend('.recommend-2', '.s-pagination-2')
-    recommend('.recommend-5', '.s-pagination-5')
+    recommend('.recommend-1', '.s-pagination-1', '.s-next-1', '.s-prev-1')
+    // recommend('.recommend-2', '.s-pagination-2')
+    recommend('.recommend-5', '.s-pagination-5', '.s-next-5', '.s-prev-5')
 }
-function banner () {
-    new Swiper('.banner', {
-        // autoplay: true,
-        loop : true,
-        // hashnav:true,
-        pagination: '.swiper-pagination',
-        nextButton: '.s-next',
-        prevButton: '.s-prev',
-    })
+
+function recommend (eleWrap, loopStaus, sElePagination,sNavNextEl,sNavPrevEl,) {
+  new Swiper(eleWrap, {
+    // autoplay: true,
+    loop: loopStaus,
+    lazy: {
+      loadPrevNext: true,
+    },
+    pagination: {
+      el: sElePagination,
+      clickable: true,
+    },
+    navigation: {
+      nextEl: sNavNextEl,
+      prevEl: sNavPrevEl,
+    },
+  })
 }
-function recommend (eleWrap, sEle) {
-    new Swiper(eleWrap, {
-        // autoplay: true,
-        loop : true,
-        pagination: sEle,
-        // uniqueNavElements :false,
-        paginationClickable :true,
-    })
+function recommend (eleWrap, sElePagination,sNavNextEl,sNavPrevEl,) {
+  new Swiper(eleWrap, {
+    // autoplay: true,
+    loop: false,
+    lazy: {
+      loadPrevNext: true,
+    },
+    pagination: {
+      el: sElePagination,
+      clickable: true,
+    },
+    navigation: {
+      nextEl: sNavNextEl,
+      prevEl: sNavPrevEl,
+    },
+  })
 }
 
 function loading () {
@@ -63,34 +77,39 @@ function loading () {
 
 
 
-// $(function() {
-//   var nowpage=0;
-//   var lock=true;
-//   function donghua(){
-//     $('.containter').animate({'top': -100*nowpage+'%'}, 500);
-//     $('.page').eq(nowpage).addClass('current').siblings().removeClass('current');
-//     $('.dian ul li').eq(nowpage).addClass('da').siblings().removeClass('da');
-//     $('.nav ul li').eq(nowpage).addClass('bg').siblings().removeClass('bg');
-//   }
-//   $(document).mousewheel(function (event,delta) {
-//     if(lock){ 
-//       nowpage=nowpage-delta;
-//       if(nowpage<0){nowpage=0;}
-//       if(nowpage>7){nowpage=7;}
-//        donghua();
-//       lock=false;
-//       setTimeout(function  () {
-//         // body...
-//         lock=true;
-//       },1000);
-//     }
-//   })
-//   $('.nav ul li').click(function(event) {
-//     nowpage=$(this).index();
-//     if(nowpage<=7){donghua();}
-//   });
-//   $('.dian ul li').click(function(event) {
-//     nowpage=$(this).index();
-//     donghua();
-//   });
-// });
+$(function() {
+  var nowpage=0;
+  var lock=true;
+  function donghua(){
+    $('.containter').animate({'top': -100*nowpage+'%'}, 500);
+    $('.page').eq(nowpage).addClass('current').siblings().removeClass('current');
+    $('.side-menus ul li').eq(nowpage).addClass('bg').siblings().removeClass('bg');
+  }
+  $(document).mousewheel(function (event,delta) {
+    // console.log(delta);
+    if(lock){ 
+      nowpage=nowpage-delta;
+      if(nowpage<0){nowpage=0;}
+      if(nowpage>7){nowpage=7;}
+        donghua();
+      lock=false;
+      setTimeout(function  () {
+        // body...
+        lock=true;
+      },1000);
+    }
+  })
+  $('.side-menus ul li').click(function(event) {
+    event.stopPropagation();
+    console.log($(this).index())
+    var a = 0;
+    nowpage=$(this).index();
+    if(nowpage<=8){donghua();}
+
+    // nowpage2 = nowpage +1;
+    // if(nowpage2 = 4){
+    //   recommend('.recommend-'+ nowpage2, '.s-pagination'+nowpage2, '.s-next'+nowpage2, '.s-prev'+nowpage2)
+    // }
+  });
+
+});

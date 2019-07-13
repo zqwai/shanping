@@ -1,6 +1,14 @@
-
+html,
+body{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+.containter{
+  position: relative;
+}
 .nwrap{
-  max-width: 1320px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 /* header */
@@ -8,9 +16,8 @@
   width: 100%;
   position: relative;
   background-color: rgba(255, 255, 255, .8);
-  height: 13rem;
-  padding-top: 2.5rem;
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+  height: 11.25rem;
+  padding-top: 4rem;
   transition: all .8s;
   z-index: 6;
 }
@@ -22,32 +29,39 @@
   display: -webkit-flex;
 }
 .topheader .logo-wrap{
-  width: 40.5rem;
+  width: 36.5rem;
+  padding-top: 0.5rem;
+  padding-left: 4rem;
 }
 .topheader .logo-wrap .logo,
 .topheader .logo-wrap .slogan-2{
   display: inline-block;
-  height: 8rem;
+  height: 5.66666666rem;
   position: relative;
 }
 .topheader .logo-wrap .logo{
   background:#6ea082 url(../img/logo/logo-1.png) no-repeat center center;
   background-size: 70% auto;
-  width: 8rem;
+  width: 5.66666666rem;
   border-radius: 50%;
 }
 .topheader .logo-wrap .slogan-2{
   width: 15.5rem;
-  background: url(../img/logo/phone-2.png) no-repeat right center;
-  background-size: 100% auto;
+  background: url(../img/logo/phone-2.png) no-repeat left center;
+  background-size: auto 100%;
   margin-left: .8rem;
+}
+.header-sm .logo-wrap .logo{
+  background: url(../img/logo/logo-green-hover.svg) no-repeat center center;
 }
 .topnav,
 .topnav ul,
 .topnav>ul>li> a{
-  height: 10.5rem;
+  height: 7.25rem;
 }
-.topnav,
+.topnav{
+  flex: 1;
+}
 .topnav ul{
   list-style: none;
   padding: 0;
@@ -69,17 +83,20 @@
 .topnav>ul>li> a,
 .topnav>ul>li> a > span{
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 .topnav>ul>li> a{
   line-height: 1.8rem;
-  padding-top: 3.075rem;
+  padding-top: 1.5rem;
   color: #333;
   text-decoration: none;
   border-radius: .5rem .5rem 0 0;
   border:rgba(255, 255, 255, 0) solid 1px;
   border-bottom: none;
+}
+.topnav>ul>li> a > span.tit{
+  font-weight: 600;
 }
 .topnav>ul>li> a:hover,
 .topnav>ul>li.cur> a{
@@ -92,7 +109,7 @@
 } */
 .topnav>ul .subnav{
   position: absolute;
-  top: 10.5rem;
+  top: 7.25rem;
   width: 100%;
   /* display: none; */
   height: 0;
@@ -120,22 +137,32 @@
   padding-left: 1rem;
   background-color: rgba(110, 160, 130, .9);
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .topnav .subnav li a:hover{
   background-color: rgb(61, 119, 84);
 }
 
+.nbanner{
+  width: 100%;
+  position: relative;
+  /* margin-bottom: 3rem; */
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+  z-index: 2;
+}
 .header-sm{
   height: 6rem;
   padding-top:1rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+  z-index: 10;
 }
 .header-sm .logo-wrap .logo,
 .header-sm .logo-wrap .slogan-2{
   height: 4rem;
   transition: all .8s;
 }
-.header-sm .topnav, .topnav ul,
+.header-sm .topnav, 
+.header-sm .topnav ul,
 .header-sm .topnav>ul>li> a{
   height: 4.5rem;
   transition: all .5s;
@@ -169,4 +196,40 @@
 
 .article-wrap{
   min-height: 30rem;
+}
+
+/* 
+  nfooter
+*/
+.nfooter {
+  width: 100%;
+  position: relative;
+  padding-top: 10rem;
+}
+.nfooter .bg-nwrap{
+  background: url(../img/page/nfoot/nfootbg.jpg) no-repeat center top;
+  width: 100%;
+  height: 35.416666666rem;
+}
+.nfooter .bg-nwrap .logo{
+  padding-left: 1rem;
+  width: auto;
+}
+.nfooter .cont ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #666;
+  padding-left: 2rem;
+}
+.nfooter .cont ul li{
+  line-height: 2.6rem;
+  font-size:2rem;
+}
+.nfooter .cont ul li .icon{
+  width: 2rem;
+  height: auto;
+  fill: #666;
+  vertical-align: middle;
+  margin-right: .5rem;
 }
