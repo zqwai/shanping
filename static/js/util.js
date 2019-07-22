@@ -4,7 +4,7 @@ bHeight =document.body.clientHeight;
 document.body.onload = app;
 
 function app () {
-    loading()
+    // loading()
     init()
 }
 // $(window).scroll(function(){
@@ -28,12 +28,15 @@ function init () {
     });
     // 通用模块 滚动到顶部
 	$("#backToTop").on("click",function(){
-	    $('.containter').animate({'top':0},800);
-	    return false;
-    });
-    recommend('.recommend-1', '.s-pagination-1', '.s-next-1', '.s-prev-1')
-    // recommend('.recommend-2', '.s-pagination-2')
-    recommend('.recommend-5', '.s-pagination-5', '.s-next-5', '.s-prev-5')
+    $('.containter').animate({'top':0},800);
+    return false;
+  });
+  recommend('.recommend-1', '.s-pagination-1', '.s-next-1', '.s-prev-1')
+  // recommend('.recommend-2', '.s-pagination-2')
+  recommend('.recommend-5', '.s-pagination-5', '.s-next-5', '.s-prev-5')
+  
+  $('.containter').animate({'top': '-100%'}, 500);
+  $('.main-wrap').removeClass('page-lock');
 }
 
 function recommend (eleWrap, loopStaus, sElePagination,sNavNextEl,sNavPrevEl,) {
@@ -89,12 +92,24 @@ $(function() {
     // console.log(delta);
     if(lock){ 
       nowpage=nowpage-delta;
-      if(nowpage<0){nowpage=0;}
-      if(nowpage>7){nowpage=7;}
-        donghua();
+
+      console.log(nowpage,delta)
+      if(nowpage<0){
+        nowpage=0;
+      } 
+      var aa = -1;
+      if(nowpage==0 || nowpage==aa){
+        nowpage=0;
+        $('.main-wrap').addClass('page-lock');
+      }
+      if(nowpage==1){
+        $('.main-wrap').removeClass('page-lock');
+      }
+      if(nowpage>8){nowpage=8;}
+
+      donghua();
       lock=false;
       setTimeout(function  () {
-        // body...
         lock=true;
       },1000);
     }
@@ -111,5 +126,21 @@ $(function() {
     //   recommend('.recommend-'+ nowpage2, '.s-pagination'+nowpage2, '.s-next'+nowpage2, '.s-prev'+nowpage2)
     // }
   });
+  $('#sHome').click(function () {
+    $('.containter').animate({'top': '0'}, 500)
+    $('.main-wrap').addClass('page-lock');
+    nowpage=0;
+  });
 
+  $('#scrollToP1').click(function () {
+    $('.containter').animate({'top': '-100%'}, 500);
+    $('.main-wrap').removeClass('page-lock');
+    nowpage=1;
+  });
+
+  $('#backToTop').click(function () {
+    $('.containter').animate({'top': '0'}, 500)
+    $('.main-wrap').addClass('page-lock');
+    nowpage=0;
+  })
 });
