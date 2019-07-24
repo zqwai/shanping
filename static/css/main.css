@@ -56,8 +56,11 @@ body{
   flex: 1;
 }
 
+.lazyPic{
+  min-height: 6rem;
+}
 
-
+/* loading */
 .loading{
   position: fixed;
   width: 100%;
@@ -795,16 +798,16 @@ body{
 .recommend ul.recommend-inline li a .p-txt{
   background-size: 80% auto;
 }
-.recommend ul.recommend-inline li a:hover .t-txt-hover{
+.recommend ul.recommend-inline li a.hover .t-txt-hover{
   top: 55px; 
 }
-.page3 .recommend ul.recommend-inline li a:hover .t-txt-hover{
+.page3 .recommend ul.recommend-inline li a.hover .t-txt-hover{
   top: 210px; 
 }
 .page3 .recommend ul.recommend-inline li a .t-txt-hover{
   background-position: center 10%;
 }
-.page6 .recommend ul.recommend-inline li a:hover .t-txt-hover{
+.page6 .recommend ul.recommend-inline li a.hover .t-txt-hover{
   top: 64px; 
 }
 /* 
@@ -826,9 +829,9 @@ body{
   outline: none;
   display: none;
 }
-.page-n-wrap:hover .s-button{
+/* .page-n-wrap:hover .s-button{
   display: block;
-}
+} */
 .page-n-wrap .swiper-button-disabled{
   opacity: .1;
 }
