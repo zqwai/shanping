@@ -251,7 +251,6 @@
 
         <div class="slogan slogan-1 col-xs-3 col-md-3">
           <div class="sloganbg"></div>
-          <!-- <img src="./static/img/slogan/p1.png" alt=""> -->
         </div>
 
         <div class="cont-wrap col-xs-8 col-md-8 p-0">
@@ -276,12 +275,11 @@
               <div class="swiper-wrapper">
 
                 <section class="swiper-slide">
-                  <div class="swiper-lazy-preloader"></div>
                   <ul class="recommend-inline">
-                    <li>
+                    <li class="menu-item-1" data-menuindex='1'>
                       <a href="productshow.php?cid=1&id=1">
                         <div class="p-pic ">
-                            <img class="swiper-lazy" data-src="./static/img/page/1-1/1.jpg">
+                            <img src="./static/img/page/1-1/1.jpg">
                         </div>
                         
                         <div class="p-txt-wrap">
@@ -299,10 +297,10 @@
                         </div>
                       </a>
                     </li>
-                    <li>
+                    <li class="menu-item-2" data-menuindex='2'>
                         <a href="productshow.php?cid=1&id=2">
                             <div class="p-pic ">
-                                <img class="swiper-lazy" data-src="./static/img/page/1-1/2.jpg">
+                                <img src="./static/img/page/1-1/2.jpg">
                             </div>
                           <div class="p-txt-wrap">
                           <dl class="p-txt p1-txt-2">
@@ -314,10 +312,10 @@
                         </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item-3" data-menuindex='3'>
                         <a href="productshow.php?cid=1&id=3">
                           <div class="p-pic ">
-                              <img class="swiper-lazy" data-src="./static/img/page/1-1/3.jpg">
+                              <img src="./static/img/page/1-1/3.jpg">
                           </div>
                           <div class="p-txt-wrap">
                           <dl class="p-txt p1-txt-3">
@@ -332,10 +330,10 @@
                         </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item-4" data-menuindex='4'>
                         <a href="productshow.php?cid=1&id=4">
                             <div class="p-pic ">
-                                <img class="swiper-lazy" data-src="./static/img/page/1-1/4.jpg">
+                                <img src="./static/img/page/1-1/4.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -352,12 +350,12 @@
                 </section>
 
                 <section class="swiper-slide">
-                  <div class="swiper-lazy-preloader"></div>
+                  
                   <ul class="recommend-inline">
-                    <li>
+                    <li class="menu-item-5" data-menuindex='5'>
                         <a href="productshow.php?cid=1&id=5">
                             <div class="p-pic ">
-                                <img class="swiper-lazy" data-src="./static/img/page/1-1/5.jpg">
+                                <img src="./static/img/page/1-1/5.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -375,10 +373,10 @@
 
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item-6" data-menuindex='6'>
                         <a href="productshow.php?cid=1&id=6">
                             <div class="p-pic ">
-                                <img class="swiper-lazy" data-src="./static/img/page/1-1/6.jpg">
+                                <img src="./static/img/page/1-1/6.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -395,10 +393,10 @@
                           </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item-7" data-menuindex='7'>
                         <a href="productshow.php?cid=1&id=7">
                             <div class="p-pic ">
-                                <img class="swiper-lazy" data-src="./static/img/page/1-1/7.jpg">
+                                <img src="./static/img/page/1-1/7.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -413,10 +411,10 @@
                           </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item-8" data-menuindex='8'>
                         <a href="productshow.php?cid=1&id=8">
                             <div class="p-pic ">
-                                <img class="swiper-lazy" data-src="./static/img/page/1-1/8.jpg">
+                                <img src="./static/img/page/1-1/8.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -433,12 +431,12 @@
                 </section>
 
                 <section class="swiper-slide">
-                    <div class="swiper-lazy-preloader"></div>
+                    
                   <ul class="recommend-inline">
-                    <li>
+                    <li class="menu-item-9" data-menuindex='9'>
                         <a href="productshow.php?cid=1&id=9">
                             <div class="p-pic ">
-                                <img class="swiper-lazy" data-src="./static/img/page/1-1/9.jpg">
+                                <img src="./static/img/page/1-1/9.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -454,10 +452,10 @@
                           </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item-10" data-menuindex='10'>
                         <a href="productshow.php?cid=1&id=10">
                             <div class="p-pic ">
-                                <img class="swiper-lazy" data-src="./static/img/page/1-1/10.jpg">
+                                <img src="./static/img/page/1-1/10.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -474,10 +472,10 @@
                           </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item-11" data-menuindex='11'>
                         <a href="productshow.php?cid=1&id=11">
                             <div class="p-pic ">
-                                <img class="swiper-lazy" data-src="./static/img/page/1-1/11.jpg">
+                                <img src="./static/img/page/1-1/11.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -491,10 +489,10 @@
                           </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item-12" data-menuindex='12'>
                         <a href="productshow.php?cid=1&id=12">
                             <div class="p-pic ">
-                                <img class="swiper-lazy" data-src="./static/img/page/1-1/12.jpg">
+                                <img src="./static/img/page/1-1/12.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -732,7 +730,7 @@
 
                 <section class="swiper-slide">
                   <ul class="recommend-inline">
-                    <li>
+                    <li data-menuindex="1">
                       <a href="productshow.php?cid=2&id=15">
                         <img src="./static/img/page/1-4/1.jpg" alt="">
                         <div class="p-txt-wrap p-0">
@@ -742,7 +740,7 @@
 
                       </a>
                     </li>
-                    <li>
+                    <li data-menuindex="2">
                       <a href="productshow.php?cid=2&id=16">
                         <img src="./static/img/page/1-4/2.jpg" alt="">
                         <div class="p-txt-wrap">
@@ -751,7 +749,7 @@
                         </div>
                       </a>
                     </li>
-                    <li>
+                    <li data-menuindex="3">
                       <a href="productshow.php?cid=2&id=17">
                         <img src="./static/img/page/1-4/3.jpg" alt="">
                         <div class="p-txt-wrap">
@@ -761,7 +759,7 @@
                         
                       </a>
                     </li>
-                    <li>
+                    <li data-menuindex="4">
                       <a href="productshow.php?cid=2&id=18">
                         <img src="./static/img/page/1-4/4.jpg" alt="">
                         <div class="p-txt-wrap">
@@ -770,7 +768,7 @@
                         </div>
                       </a>
                     </li>
-                    <li>
+                    <li data-menuindex="5">
                       <a href="productshow.php?cid=2&id=19">
                         <img src="./static/img/page/1-4/5.jpg" alt="">
                         <div class="p-txt-wrap">
@@ -1034,7 +1032,7 @@
 
                 <section class="swiper-slide">
                   <ul class="recommend-inline">
-                    <li>
+                    <li data-menuindex="1">
                       <a href="productshow.php?cid=2&id=20">
                         <img src="./static/img/page/1-6/1.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
@@ -1050,7 +1048,7 @@
                         </div>
                       </a>
                     </li>
-                    <li>
+                    <li data-menuindex="2">
                       <a href="productshow.php?cid=2&id=21">
                         <img src="./static/img/page/1-6/2.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
@@ -1068,7 +1066,7 @@
                         </div>
                       </a>
                     </li>
-                    <li>
+                    <li data-menuindex="3">
                       <a href="productshow.php?cid=2&id=22">
                         <img src="./static/img/page/1-6/3.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
