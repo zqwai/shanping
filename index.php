@@ -75,7 +75,7 @@
       </ul>
     </nav>
     <footer class="silde-footer">
-      <img src="./static/img/logo/qrcode.png" class="qrcode">
+      <img class='lazyPic' data-lazypicsrc="./static/img/logo/qrcode.png" class="qrcode">
     </footer>
   </aside>
 
@@ -234,7 +234,7 @@
             </dd>
           </dl>
 
-        </div> 
+        </div>
     </section>
 
     <section id="page1" class="page page1 row p-0 m-0 h-100">
@@ -273,7 +273,7 @@
                     <li class="menu-item-1" data-menuindex='1'>
                       <a href="productshow.php?cid=1&id=1">
                         <div class="p-pic ">
-                            <img src="./static/img/page/1-1/1.jpg">
+                            <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/1.jpg">
                         </div>
 
                         <div class="p-txt-wrap">
@@ -294,7 +294,7 @@
                     <li class="menu-item-2" data-menuindex='2'>
                         <a href="productshow.php?cid=1&id=2">
                             <div class="p-pic ">
-                                <img src="./static/img/page/1-1/2.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/2.jpg">
                             </div>
                           <div class="p-txt-wrap">
                           <dl class="p-txt p1-txt-2">
@@ -309,7 +309,7 @@
                     <li class="menu-item-3" data-menuindex='3'>
                         <a href="productshow.php?cid=1&id=3">
                           <div class="p-pic ">
-                              <img src="./static/img/page/1-1/3.jpg">
+                              <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/3.jpg">
                           </div>
                           <div class="p-txt-wrap">
                           <dl class="p-txt p1-txt-3">
@@ -327,7 +327,7 @@
                     <li class="menu-item-4" data-menuindex='4'>
                         <a href="productshow.php?cid=1&id=4">
                             <div class="p-pic ">
-                                <img src="./static/img/page/1-1/4.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/4.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -344,17 +344,16 @@
                 </section>
 
                 <section class="swiper-slide">
-                  
+
                   <ul class="recommend-inline">
                     <li class="menu-item-5" data-menuindex='5'>
                         <a href="productshow.php?cid=1&id=5">
                             <div class="p-pic ">
-                                <img src="./static/img/page/1-1/5.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/5.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
                               <dt class="tit">服饰类</dt>
-    
                               <dd class="txt">丝巾盒</dd>
                               <dd class="txt">衣帽盒</dd>
                               <dd class="txt">领带皮带盒</dd>
@@ -370,12 +369,11 @@
                     <li class="menu-item-6" data-menuindex='6'>
                         <a href="productshow.php?cid=1&id=6">
                             <div class="p-pic ">
-                                <img src="./static/img/page/1-1/6.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/6.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
                               <dt class="tit">首饰类</dt>
-    
                               <dd class="txt">手链手串手镯佛珠</dd>
                               <dd class="txt">项链</dd>
                               <dd class="txt">脚链</dd>
@@ -390,12 +388,11 @@
                     <li class="menu-item-7" data-menuindex='7'>
                         <a href="productshow.php?cid=1&id=7">
                             <div class="p-pic ">
-                                <img src="./static/img/page/1-1/7.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/7.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
                               <dt class="tit">食品类</dt>
-    
                               <dd class="txt">时令生鲜</dd>
                               <dd class="txt">干货礼盒</dd>
                               <dd class="txt">糕点礼盒</dd>
@@ -408,12 +405,11 @@
                     <li class="menu-item-8" data-menuindex='8'>
                         <a href="productshow.php?cid=1&id=8">
                             <div class="p-pic ">
-                                <img src="./static/img/page/1-1/8.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/8.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
                               <dt class="tit">电子类</dt>
-    
                               <dd class="txt">工艺类</dd>
                               <dd class="txt">日用品</dd>
                             </dl>
@@ -425,17 +421,16 @@
                 </section>
 
                 <section class="swiper-slide">
-                    
                   <ul class="recommend-inline">
                     <li class="menu-item-9" data-menuindex='9'>
                         <a href="productshow.php?cid=1&id=9">
-                            <div class="p-pic ">
-                                <img src="./static/img/page/1-1/9.jpg">
-                            </div>
+                          <div class="p-pic ">
+                              <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/9.jpg">
+                          </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
                               <dt class="tit">色卡箱</dt>
-    
+
                               <dd class="txt">橱柜色卡箱</dd>
                               <dd class="txt">装饰色卡箱</dd>
                               <dd class="txt">面板色卡箱</dd>
@@ -449,12 +444,11 @@
                     <li class="menu-item-10" data-menuindex='10'>
                         <a href="productshow.php?cid=1&id=10">
                             <div class="p-pic ">
-                                <img src="./static/img/page/1-1/10.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/10.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
                               <dt class="tit">装饰色卡</dt>
-    
                               <dd class="txt">装饰类</dd>
                               <dd class="txt">板材</dd>
                               <dd class="txt">石材</dd>
@@ -469,12 +463,11 @@
                     <li class="menu-item-11" data-menuindex='11'>
                         <a href="productshow.php?cid=1&id=11">
                             <div class="p-pic ">
-                                <img src="./static/img/page/1-1/11.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/11.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
                               <dt class="tit">文件夹</dt>
-    
                               <dd class="txt">常规型</dd>
                               <dd class="txt">圆背型</dd>
                               <dd class="txt">吸铁翻盖式</dd>
@@ -486,12 +479,11 @@
                     <li class="menu-item-12" data-menuindex='12'>
                         <a href="productshow.php?cid=1&id=12">
                             <div class="p-pic ">
-                                <img src="./static/img/page/1-1/12.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/12.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
                               <dt class="tit">折叠盒</dt>
-    
                               <dd class="txt">天地盖式</dd>
                               <dd class="txt">吸铁翻盖式</dd>
                             </dl>
@@ -516,25 +508,25 @@
 
 
       <section id="page2" class="page page2 row p-0 m-0 h-100">
-        
+
         <section class="left-side-back col-xs-2 col-md-2 p-0"></section>
         <section class="col-xs-10 col-md-10 rightside">
         <section class="row p-0 m-0">
 
           <div class="slogan slogan-2 col-xs-3 col-md-3">
               <div class="sloganbg"></div>
-            <!-- <img src="./static/img/slogan/p2.png" alt=""> -->
+            <!-- <img class='lazyPic' data-lazypicsrc="./static/img/slogan/p2.png" alt=""> -->
           </div>
 
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
-              <div class="top-link-wrap  ta-r">
-                <a href="/" class="item">尚品包装</a>
-                <span class="item-txt">·</span>
-                <a href="javascript:;" class="item">沃霖印刷</a>
-                <span class="item-txt">·</span>
-                <a href="javascript:;" class="item">沃霖文创</a>
-              </div>
+            <div class="top-link-wrap  ta-r">
+              <a href="/" class="item">尚品包装</a>
+              <span class="item-txt">·</span>
+              <a href="javascript:;" class="item">沃霖印刷</a>
+              <span class="item-txt">·</span>
+              <a href="javascript:;" class="item">沃霖文创</a>
+            </div>
 
             <nav class="sub-nav">
               <ul class="clearfix">
@@ -552,30 +544,30 @@
                   <ul class="gif-1">
                     <li>
                       <a href="productshow.php?cid=1&id=13">
-                        <img src="./static/img/page/1-2/1.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/1.jpg" alt="">
                       </a>
                     </li>
                     <li>
                       <a href="productshow.php?cid=1&id=13">
-                        <img src="./static/img/page/1-2/2.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/2.jpg" alt="">
                       </a>
                     </li>
                   </ul>
                   <ul class="gif-2">
                     <li>
                       <a href="productshow.php?cid=1&id=13">
-                        <img src="./static/img/page/1-2/3.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/3.jpg" alt="">
                       </a>
                     </li>
                     <li>
                       <a href="productshow.php?cid=1&id=13">
-                        <img src="./static/img/page/1-2/4.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/4.jpg" alt="">
                         <div class="p-txt t-txt-hover"></div>
                       </a>
                     </li>
                     <li>
                       <a href="productshow.php?cid=1&id=13">
-                        <img src="./static/img/page/1-2/5.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/5.jpg" alt="">
                       </a>
                     </li>
                   </ul>
@@ -591,16 +583,15 @@
 
 
       <section id="page3" class="page page3 row p-0 m-0 h-100">
-        
-          <section class="left-side-back col-xs-2 col-md-2 p-0"></section>
-          <section class="col-xs-10 col-md-10 rightside">
+
+        <section class="left-side-back col-xs-2 col-md-2 p-0"></section>
+        <section class="col-xs-10 col-md-10 rightside">
           <section class="row p-0 m-0">
-  
-            <div class="slogan slogan-3 col-xs-3 col-md-3">
-                <div class="sloganbg"></div>
-              <!-- <img src="./static/img/slogan/p3.png" alt=""> -->
-            </div>
-  
+
+          <div class="slogan slogan-3 col-xs-3 col-md-3">
+              <div class="sloganbg"></div>
+          </div>
+
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
           <div class="top-link-wrap  ta-r">
@@ -628,11 +619,10 @@
                   <ul class="recommend-inline">
                     <li>
                       <a href="/productshow.php?cid=2&id=14">
-                        <img src="./static/img/page/1-3/1.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-3/1.jpg" alt="">
                         <div class="p-txt-wrap">
                           <dl class="p-txt">
                             <dt class="tit">打样范畴</dt>
-    
                             <dd class="txt">各类精装礼盒</dd>
                             <dd class="txt">文件夹</dd>
                             <dd class="txt">各类皮壳</dd>
@@ -641,15 +631,14 @@
                             <dd class="txt">VI整套打烊</dd>
                             <dd class="txt">手提袋</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
                     <li class="green-wrap">
                       <a href="/productshow.php?cid=2&id=14">
-                        <img src="./static/img/page/1-3/2.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-3/2.jpg" alt="">
                         <div class="p-txt-wrap p-txt-c-wrap">
-                          <img src="./static/img/page/page-3-1-2.png" alt="">
+                          <img class='lazyPic' data-lazypicsrc="./static/img/page/page-3-1-2.png" alt="">
                           <dl class="p-txt">
                             <dd class="txt font-2-4rem letter-s">常规精装礼盒</dd>
                             <dd class="txt font-2-4rem">手提袋/彩瓦盒</dd>
@@ -661,11 +650,10 @@
                     </li>
                     <li>
                       <a href="/productshow.php?cid=2&id=14">
-                        <img src="./static/img/page/1-3/3.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-3/3.jpg" alt="">
                         <div class="p-txt-wrap">
                           <dl class="p-txt">
                             <dt class="tit">常备纸张/辅料</dt>
-    
                             <dd class="txt">铜版纸/亚粉纸</dd>
                             <dd class="txt">白卡纸/牛皮纸</dd>
                             <dd class="txt">金银卡纸/各种特种纸</dd>
@@ -675,7 +663,6 @@
                             <dd class="txt">常规绸布</dd>
                             <dd class="txt">F/E/B/BF瓦</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
@@ -692,17 +679,15 @@
 
       <!-- page4 -->
       <section id="page4" class="page page4 row p-0 m-0 h-100">
-        
+
           <section class="left-side-back col-xs-2 col-md-2 p-0"></section>
           <section class="col-xs-10 col-md-10 rightside">
           <section class="row p-0 m-0">
-  
             <div class="slogan slogan-4 col-xs-3 col-md-3">
                 <div class="sloganbg"></div>
-              <!-- <img src="./static/img/slogan/p4.png" alt=""> -->
             </div>
-  
-          <div class="cont-wrap col-xs-8 col-md-8 p-0">
+
+            <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
               <div class="top-link-wrap  ta-r">
                 <a href="/" class="item">尚品包装</a>
@@ -712,12 +697,11 @@
                 <a href="javascript:;" class="item">沃霖文创</a>
               </div>
 
-            <nav class="sub-nav">
-              <ul class="clearfix">
-                
-                <?php echo GetSubNav(6); ?>
-              </ul>
-            </nav>
+              <nav class="sub-nav">
+                <ul class="clearfix">
+                  <?php echo GetSubNav(6); ?>
+                </ul>
+              </nav>
 
             <section class="swiper-container recommend">
               <div class="swiper-wrapper">
@@ -726,9 +710,9 @@
                   <ul class="recommend-inline">
                     <li data-menuindex="1">
                       <a href="productshow.php?cid=2&id=15">
-                        <img src="./static/img/page/1-4/1.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/1.jpg" alt="">
                         <div class="p-txt-wrap p-0">
-                          <img src="./static/img/page/page-4-1-1.jpg" alt="">
+                          <img class='lazyPic' data-lazypicsrc="./static/img/page/page-4-1-1.jpg" alt="">
                           <div class="p-txt t-txt-hover"></div>
                         </div>
 
@@ -736,37 +720,36 @@
                     </li>
                     <li data-menuindex="2">
                       <a href="productshow.php?cid=2&id=16">
-                        <img src="./static/img/page/1-4/2.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/2.jpg" alt="">
                         <div class="p-txt-wrap">
-                          <img src="./static/img/page/page-4-2-1.jpg" alt="">
+                          <img class='lazyPic' data-lazypicsrc="./static/img/page/page-4-2-1.jpg" alt="">
                           <div class="p-txt t-txt-hover"></div>
                         </div>
                       </a>
                     </li>
                     <li data-menuindex="3">
                       <a href="productshow.php?cid=2&id=17">
-                        <img src="./static/img/page/1-4/3.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/3.jpg" alt="">
                         <div class="p-txt-wrap">
-                          <img src="./static/img/page/page-4-3-1.jpg" alt="">
+                          <img class='lazyPic' data-lazypicsrc="./static/img/page/page-4-3-1.jpg" alt="">
                           <div class="p-txt t-txt-hover"></div>
                         </div>
-                        
                       </a>
                     </li>
                     <li data-menuindex="4">
                       <a href="productshow.php?cid=2&id=18">
-                        <img src="./static/img/page/1-4/4.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/4.jpg" alt="">
                         <div class="p-txt-wrap">
-                          <img src="./static/img/page/page-4-4-1.jpg" alt="">
+                          <img class='lazyPic' data-lazypicsrc="./static/img/page/page-4-4-1.jpg" alt="">
                           <div class="p-txt t-txt-hover"></div>
                         </div>
                       </a>
                     </li>
                     <li data-menuindex="5">
                       <a href="productshow.php?cid=2&id=19">
-                        <img src="./static/img/page/1-4/5.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/5.jpg" alt="">
                         <div class="p-txt-wrap">
-                          <img src="./static/img/page/page-4-5-1.jpg" alt="">
+                          <img class='lazyPic' data-lazypicsrc="./static/img/page/page-4-5-1.jpg" alt="">
                           <div class="p-txt t-txt-hover"></div>
                         </div>
                       </a>
@@ -785,16 +768,15 @@
 
       <!-- page5 -->
       <section id="page5" class="page page5 row p-0 m-0 h-100">
-        
+
           <section class="left-side-back col-xs-2 col-md-2 p-0"></section>
           <section class="col-xs-10 col-md-10 rightside">
           <section class="row p-0 m-0">
-  
+
             <div class="slogan slogan-5 col-xs-3 col-md-3">
                 <div class="sloganbg"></div>
-              <!-- <img src="./static/img/slogan/p5.png" alt=""> -->
             </div>
-  
+
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
               <div class="top-link-wrap  ta-r">
@@ -822,37 +804,33 @@
                   <ul class="recommend-inline">
                     <li>
                       <a href="javacript:;">
-                        <img src="./static/img/page/1-5/1.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/1.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt" style="height: auto;margin-bottom:1rem;">
                               <dt class="tit">双灰板</dt>
-      
                               <dd class="txt">常规通用板</dd>
                               <dd class="txt">适用于任何精装礼盒</dd>
-      
                               <dd class="txt">厚度mm与克重g对比</dd>
                           </dl>
-                          <img src="./static/img/page/page-5-1-2.png" class="pl-1 pr-1">
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
+                          <img class='lazyPic' data-lazypicsrc="./static/img/page/page-5-1-2.png" class="pl-1 pr-1">
                         </div>
                       </a>
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img src="./static/img/page/1-5/2.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/2.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                             <dt class="tit">密度板</dt>
                             <dd class="txt">硬度强、表面平整、不易弯曲变形</dd>
                             <dd class="txt">适用于组合型、多隔断复杂型</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img src="./static/img/page/1-5/3.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/3.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                             <dt class="tit">EVA高弹泡棉</dt>
@@ -863,13 +841,12 @@
                             <dd class="txt">平整度硬度好、成本较高短时间内有气味</dd>
                             <dd class="txt">厚度可随实际切割</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img src="./static/img/page/1-5/4.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/4.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">EPE 珍珠棉</dt>
@@ -880,24 +857,21 @@
                               <dd class="txt">成本较低、无气味</dd>
                               <dd class="txt">厚度可随实际切割</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img src="./static/img/page/1-5/5.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/5.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">海绵</dt>
-      
                               <dd class="txt">常规颜色为黑和白</dd>
                               <dd class="txt">表面可贴绒布</dd>
                               <dd class="txt">——绒布颜色可选</dd>
                               <dd class="txt">无气味</dd>
                               <dd class="txt">厚度可随实际切割</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
@@ -908,11 +882,10 @@
                   <ul class="recommend-inline">
                     <li>
                       <a href="javacript:;">
-                        <img src="./static/img/page/1-5/6.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/6.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">吸塑泡壳</dt>
-      
                               <dd class="txt">透明乳白可植绒</dd>
                               <dd class="txt">可塑性强</dd>
                               <dd class="txt">适用于</dd>
@@ -920,63 +893,54 @@
                               <dd class="txt">产品形状不规则</dd>
                               <dd class="txt">摆放多个物品</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img src="./static/img/page/1-5/7.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/7.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">泡沫发泡+绸布</dt>
-      
                               <dd class="txt">两者配合使用最佳</dd>
                               <dd class="txt">绸布颜色可选</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img src="./static/img/page/1-5/8.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/8.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">彩瓦</dt>
-      
                               <dd class="txt">常用语内托</dd>
                               <dd class="txt">颜色艳丽</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img src="./static/img/page/1-5/9.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/9.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">拉菲草</dt>
-      
                               <dd class="txt">起减震装饰作用</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img src="./static/img/page/1-5/10.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/10.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">金银卡纸</dt>
-      
                               <dd class="txt">又称镀铝纸</dd>
                               <dd class="txt">需UV纸印刷</dd>
                               <dd class="txt">呈梦幻般色彩</dd>
                           </dl>
-                          <!-- <div class="p-txt t-txt-hover"></div> -->
                         </div>
                       </a>
                     </li>
@@ -995,16 +959,16 @@
 
       <!-- page6 -->
       <section id="page6" class="page page6 row p-0 m-0 h-100">
-        
+
           <section class="left-side-back col-xs-2 col-md-2 p-0"></section>
           <section class="col-xs-10 col-md-10 rightside">
           <section class="row p-0 m-0">
-  
+
             <div class="slogan slogan-6 col-xs-3 col-md-3">
                 <div class="sloganbg"></div>
-              <!-- <img src="./static/img/slogan/p6.png" alt=""> -->
+              <!-- <img class='lazyPic' data-lazypicsrc="./static/img/slogan/p6.png" alt=""> -->
             </div>
-  
+
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
               <div class="top-link-wrap  ta-r">
@@ -1014,7 +978,7 @@
                 <span class="item-txt">·</span>
                 <a href="javascript:;" class="item">沃霖文创</a>
               </div>
-              
+
             <nav class="sub-nav">
               <ul class="clearfix">
                 <?php echo GetSubNav(	8); ?>
@@ -1028,11 +992,10 @@
                   <ul class="recommend-inline">
                     <li data-menuindex="1">
                       <a href="productshow.php?cid=2&id=20">
-                        <img src="./static/img/page/1-6/1.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-6/1.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">卡纸盒</dt>
-      
                               <dd class="txt">常规用材</dd>
                               <dd class="txt">250G-350G白卡、牛卡、金银卡、特种纸</dd>
                               <dd class="txt">常规工艺</dd>
@@ -1044,11 +1007,10 @@
                     </li>
                     <li data-menuindex="2">
                       <a href="productshow.php?cid=2&id=21">
-                        <img src="./static/img/page/1-6/2.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-6/2.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">彩瓦盒</dt>
-      
                               <dd class="txt">常规用材</dd>
                               <dd class="txt">250G-350G白卡、牛卡、金银卡、
                                 特种纸复合E瓦，BE瓦</dd>
@@ -1062,11 +1024,10 @@
                     </li>
                     <li data-menuindex="3">
                       <a href="productshow.php?cid=2&id=22">
-                        <img src="./static/img/page/1-6/3.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-6/3.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">手提纸袋</dt>
-      
                               <dd class="txt">常规用材</dd>
                               <dd class="txt">卡纸、牛皮纸、、艺术纸又称（特种纸）
                                 珠光纸，触感纸，原浆纸</dd>
@@ -1091,16 +1052,16 @@
 
       <!-- page7 -->
       <section id="page7" class="page page7 row p-0 m-0 h-100">
-        
+
           <section class="left-side-back col-xs-2 col-md-2 p-0"></section>
           <section class="col-xs-10 col-md-10 rightside">
           <section class="row p-0 m-0">
-  
+
             <div class="slogan slogan-7 col-xs-3 col-md-3">
                 <div class="sloganbg"></div>
-              <!-- <img src="./static/img/slogan/p7.png" alt=""> -->
+              <!-- <img class='lazyPic' data-lazypicsrc="./static/img/slogan/p7.png" alt=""> -->
             </div>
-  
+
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
               <div class="top-link-wrap  ta-r">
@@ -1110,7 +1071,7 @@
                 <span class="item-txt">·</span>
                 <a href="javascript:;" class="item">沃霖文创</a>
               </div>
-              
+
             <nav class="sub-nav">
                 <ul class="clearfix">
                   <li>
@@ -1124,15 +1085,11 @@
               <section class="swiper-container recommend recommend-7">
                   <div class="swiper-wrapper">
                       <section class="swiper-slide">
-                        
-
 
                           <div class="new-cont-wrap">
                               <div class="box-pic-l">
-                                <div class="box-n-pic">
-                                    <!-- <img src="./static/img/page/page-7-1.jpg"> -->
-                                </div>
-                
+                                <div class="box-n-pic"></div>
+
                                   <div class="info dflex">
                                     <div class="left-l">
                                         <div class="row-1">项 目</div>
@@ -1150,13 +1107,8 @@
                                   </div>
                               </div>
                               <div class="box-pic-r">
-                                  <div class="box-n-pic">
-                                      <!-- <img src="./static/img/page/page-7-2.jpg"> -->
-                                    </div>
-                                    <div class="box-n-pic">
-                                      <!-- <img src="./static/img/page/page-7-3.jpg"> -->
-                                  </div>
-                                  
+                                  <div class="box-n-pic"></div>
+                                  <div class="box-n-pic"></div>
                                   <div class="info dflex">
                                     <div class="left-l">
                                         原创
@@ -1174,9 +1126,6 @@
                   </div>
               </section>
 
-
-            
-
           </div>
         </section>
         </section>
@@ -1185,14 +1134,12 @@
 
       <!-- page8 -->
       <section id="page8" class="page page8 row p-0 m-0 h-100">
-        
+
           <section class="left-side-back col-xs-2 col-md-2 p-0"></section>
           <section class="col-xs-10 col-md-10 rightside">
           <section class="row p-0 m-0">
-  
-            <div class="slogan slogan-1 col-xs-3 col-md-3">
-              <!-- <img src="./static/img/slogan/p1.png" alt=""> -->
-            </div>
+
+            <div class="slogan slogan-1 col-xs-3 col-md-3"></div>
             <div class="col-xs-1 col-md-1 p-0"></div>
             <div class="cont-wrap contact-wrap col-xs-9 col-md-9 p-0">
 
@@ -1203,13 +1150,13 @@
                   <span class="item-txt">·</span>
                   <a href="javascript:;" class="item">沃霖文创</a>
                 </div> -->
-                
+
               <nav class="sub-nav"></nav>
               <div class="cont-1">
-                  <img src="./static/img/page/cont-1.png" class="cont-pic-1">
+                  <img class='lazyPic' data-lazypicsrc="./static/img/page/cont-1.png" class="cont-pic-1">
               </div>
               <div class="cont-2">
-                  <img src="./static/img/page/cont-2.jpg" class="cont-pic-2">
+                  <img class='lazyPic' data-lazypicsrc="./static/img/page/cont-2.jpg" class="cont-pic-2">
               </div>
               <div class="cont-3">
                 <div class="shuiyin"></div>
@@ -1223,7 +1170,7 @@
             </div>
           </section>
           </section>
-        
+
       </section>
 
     </div>

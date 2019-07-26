@@ -207,12 +207,17 @@ body{
 
 .article-wrap{
   min-height: 30rem;
+  text-align: center;
 }
 .article-wrap img{
   margin-bottom:1rem;
+  min-height: 300px;
+  min-width: 800px;
+  position: relative;
+  z-index: 1;
 }
 
-/* 
+/*
   nfooter
 */
 .nfooter {

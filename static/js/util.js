@@ -151,7 +151,7 @@ function lazyLoadImg(pageId){
       if(item.dataset.lazypicsrc === '' || item.dataset.lazypicsrc === null){
         item.setAttribute('src', loadingImg)
       } else {
-        item.setAttribute('src', baseUrl+item.dataset.lazypicsrc);
+        item.setAttribute('src', item.dataset.lazypicsrc);
         console.log()
       }
     } else {
