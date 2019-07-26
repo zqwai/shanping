@@ -9,7 +9,7 @@ function app () {
 }
 
 function init () {
-  
+
     $('.tool-float .phone').hover(function(){
         // $(this).toggleClass('hover')
         $(this).stop().animate({
@@ -25,7 +25,10 @@ function init () {
 	    $('html,body').animate({scrollTop:0},800);
 	    return false;
     });
-    $("img.lazy").lazyload({effect: "fadeIn"});
+    $("img.lazy").lazyload({
+      placeholder : "./static/img/loading.gif",
+      effect: "fadeIn"
+    });
 
     nav()
 }

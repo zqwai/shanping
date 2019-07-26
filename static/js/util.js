@@ -1,13 +1,34 @@
 var bWidth =document.body.clientWidth,
 bHeight =document.body.clientHeight;
+//loading
+var _LoadingHtml = '<div id="loadingDiv" style="position:absolute;left:0;width:100%;height:100%;top:0;z-index:10000;background: rgba(0,0,0,.2);"><div id="loadingDiv" style="position:absolute; cursor:wait;left:50%;top:50%;width: 80px;height: 80px;line-height:80px;margin-left:-40px;margin-top:-40px;z-index:10005;border-radius:.5rem;background: rgba(0,0,0,.8) url(static/img/web_loading@2x.gif) no-repeat center center;"></div></div>';
+document.write(_LoadingHtml);
+//监听加载状态改变
+document.onreadystatechange = completeLoading;
 
 document.body.onload = app;
 
 function app () {
     // loading()
     init()
+
+
+  // var img=document.querySelectorAll("img[data-lazypicsrc]");
+  // for(var i=0;i<img.length;i++){
+  //   img[i].style.opacity="0"
+  //   // console.log(img[i])
+  // }
+  // Limg('1')
 }
 function init () {
+
+  lazyLoad();
+
+  window.onscroll = () => {
+    var scrollTop = window.scrollY;
+    scrollTop = window.scrollY;
+    lazyLoad();
+  }
   // 右侧电话
   $('.tool-float .phone').hover(function(){
       // $(this).toggleClass('hover')
@@ -33,44 +54,42 @@ function init () {
   $('.containter').animate({'top': '-100%'}, 500);
   $('.main-wrap').removeClass('page-lock');
   // 鼠标滑过效果
-  swiperSiderTxtBg();
+  swiperSiderTxtBg('.recommend .p-txt-wrap', 'hover');
   // 菜单与模块联动
   swiperMenus(1);
   swiperMenus(4);
   swiperMenus(6);
-  
+
 }
 
 // loading
-function loading () {
-  $('.loading').remove()
+//加载状态为complete时移除loading效果
+function completeLoading() {
+    if (document.readyState == "complete") {
+        var loadingMask = document.getElementById('loadingDiv');
+        loadingMask.parentNode.removeChild(loadingMask);
+    }
 }
+
 // index Swiper
 function recommend (eleWrap, sElePagination,sNavNextEl,sNavPrevEl,) {
   new Swiper(eleWrap, {
-    // autoplay: true,
     loop: true,
-    // lazy: {
-    //   loadPrevNext: true,
-    // },
     pagination: {
       el: sElePagination,
       clickable: true,
     },
-    // navigation: {
-    //   nextEl: sNavNextEl,
-    //   prevEl: sNavPrevEl,
-    // },
   })
 }
+
 // Swiper sider hover
-function swiperSiderTxtBg () {
-  var txtWrap = $('.recommend .p-txt-wrap');
+function swiperSiderTxtBg (wrapClass, hoverClass ) {
+  var txtWrap = $(wrapClass);
   txtWrap.hover(function(){
     // console.log('222')
-    $(this).parent().addClass('hover')
+    $(this).parent().addClass(hoverClass)
   },function () {
-    $(this).parent().removeClass('hover')
+    $(this).parent().removeClass(hoverClass)
   });
 }
 // Swiper and sub menus item add cur
@@ -100,13 +119,13 @@ $(function() {
   }
   $(document).mousewheel(function (event,delta) {
     // console.log(delta);
-    if(lock){ 
+    if(lock){
       nowpage=nowpage-delta;
 
       console.log(nowpage,delta)
       if(nowpage<0){
         nowpage=0;
-      } 
+      }
       var aa = -1;
       if(nowpage==0 || nowpage==aa){
         nowpage=0;
@@ -118,6 +137,8 @@ $(function() {
       if(nowpage>8){nowpage=8;}
 
       donghua();
+      // loading img
+      // Limg(nowpage)
 
       lock=false;
 
@@ -125,17 +146,19 @@ $(function() {
         lock=true;
       },1000);
 
-     var lazypicsrc = $('.page'+nowpage).find('.lazyPic').data('lazypicsrc');
+    //  var lazypicsrc = $('.page'+nowpage).find('.lazyPic').data('lazypicsrc');
 
     }
   })
   $('.side-menus ul li').click(function(event) {
     event.stopPropagation();
-    console.log($(this).index())
-    var a = 0;
+    // var a = 0;
     nowpage=$(this).index();
-    if(nowpage<=8){donghua();}
-
+    console.log(nowpage)
+    if(nowpage<=8){
+      donghua();
+      // Limg(nowpage)
+    }
     // nowpage2 = nowpage +1;
     // if(nowpage2 = 4){
     //   recommend('.recommend-'+ nowpage2, '.s-pagination'+nowpage2, '.s-next'+nowpage2, '.s-prev'+nowpage2)
@@ -160,38 +183,66 @@ $(function() {
   })
 });
 
-// // img rest
-// var imageRest = function (e) {
-//   var imageSize = {};
-//   var originalWidth = e.detail.width;//图片原始宽  
-//   var originalHeight = e.detail.height;//图片原始高  
-//   var originalScale = originalHeight / originalWidth;//图片高宽比  
-//   // console.log('originalWidth: ' + originalWidth)
-//   // console.log('originalHeight: ' + originalHeight)
-//   //获取屏幕宽高  
-//   wx.getSystemInfo({
-//     success: function (res) {
-//       var windowWidth = res.windowWidth;
-//       var windowHeight = res.windowHeight;
-//       var windowscale = windowHeight / windowWidth;//屏幕高宽比  
-//       // console.log('windowWidth: ' + windowWidth)
-//       // console.log('windowHeight: ' + windowHeight)
-//       if (originalScale < windowscale) {//图片高宽比小于屏幕高宽比  
-//         //图片缩放后的宽为屏幕宽  
-//         imageSize.imageWidth = windowWidth;
-//         var imageNewHeight = (windowWidth * originalHeight) / originalWidth ;
-//         imageSize.imageHeight = Math.floor(imageNewHeight);
-//       } else {
-//         //图片高宽比大于屏幕高宽比  
-//         //图片缩放后的高为屏幕高  
-//         imageSize.imageHeight = windowHeight;
-//         var imageNewWidth = (windowHeight * originalWidth) / originalHeight;
-//         imageSize.imageWidth = Math.floor(imageNewWidth);
-//       }
+// loading img
 
+function lazyLoad(){
+  var scrollTop = window.scrollY;
+  var imgs = Array.from(document.querySelectorAll('img[data-lazypicsrc]'));
+  var baseUrl = 'http://sypbz.com/';
+  imgs.forEach((item,index)=>{
+    if( item.offsetTop < window.innerHeight + scrollTop ){
+      console.log(item.offsetTop)
+      item.setAttribute('src',baseUrl+item.dataset.lazypicsrc)
+    }
+  })
+}
+// function Limg(pageId){
+
+//   var viewHeight=document.documentElement.clientHeight;
+//   console.log(viewHeight)
+//   var t=document.documentElement.scrollTop||document.body.scrollTop;
+//   var limg=document.querySelectorAll("img[data-lazypicsrc]")
+//   Array.prototype.forEach.call(limg,function(item,index){
+//     var rect;
+//     if(item.getAttribute("data-lazypicsrc")===""){
+//       return
+//     };
+
+//     rect=item.getBoundingClientRect();
+//     var bSizeBottom = rect.bottom - viewHeight * pageId;
+//     var bSizeTop = rect.top - viewHeight * pageId;
+//     if(bSizeBottom>=0 && bSizeTop<viewHeight){
+//       console.log(pageId,bSizeBottom, bSizeTop, index);
+//       // (function(){
+//         var img=new Image()
+//         img.src=item.getAttribute("data-lazypicsrc")
+//         item.src=img.src
+//         var j=0
+//         setInterval(function(){
+//           j+=0.2
+//           if(j<=1){
+//             item.style.opacity=j
+//             return
+//           }
+//         },100)
+//         item.removeAttribute('data-lazypicsrc')
+//       // })()
 //     }
 //   })
-//   // console.log('缩放后的宽: ' + imageSize.imageWidth)
-//   // console.log('缩放后的高: ' + imageSize.imageHeight)
-//   return imageSize;
 // }
+
+function checkImgs() {
+  const imgs = document.querySelectorAll('.my-photo');
+  Array.from(imgs).forEach(el => {
+    if (isInSight(el)) {
+      loadImg(el);
+    }
+  })
+}
+
+function loadImg(el) {
+  if (!el.src) {
+    const source = el.dataset.src;
+    el.src = source;
+  }
+}
