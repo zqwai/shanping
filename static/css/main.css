@@ -1241,10 +1241,35 @@ body{
 
 
 
+@media (max-width: 1520px){
+  .rightside {
+    padding-right: 0;
+  }
+}
+@media (max-width: 1440px){
+  .sub-nav ul li a {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 1665px){
+  .sub-nav ul li a {
+    font-size: 1.5rem;
+  }
+  .contact-wrap .cont-2 img{
+    width: 100%;
+  }
+  .slogan{
+    margin-top: 14.7rem;
+    text-align: center;
+    min-height: 560px;
+  }
+  .page8 .slogan{
+    width: 20%;
+  }
+}
 
 
-
-@media (min-width: 1720px){
+@media (min-width: 1721px){
   .side-wrap {
     width: 266px;
     padding-left: 5.8rem;

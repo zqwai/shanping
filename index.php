@@ -75,7 +75,7 @@
       </ul>
     </nav>
     <footer class="silde-footer">
-      <img class='lazyPic' data-lazypicsrc="./static/img/logo/qrcode.png" class="qrcode">
+      <img src="./static/img/logo/qrcode.png" class="qrcode">
     </footer>
   </aside>
 
@@ -273,7 +273,7 @@
                     <li class="menu-item-1" data-menuindex='1'>
                       <a href="productshow.php?cid=1&id=1">
                         <div class="p-pic ">
-                            <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/1.jpg">
+                            <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/1-s.jpg">
                         </div>
 
                         <div class="p-txt-wrap">
@@ -294,7 +294,7 @@
                     <li class="menu-item-2" data-menuindex='2'>
                         <a href="productshow.php?cid=1&id=2">
                             <div class="p-pic ">
-                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/2.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/2-s.jpg">
                             </div>
                           <div class="p-txt-wrap">
                           <dl class="p-txt p1-txt-2">
@@ -309,7 +309,7 @@
                     <li class="menu-item-3" data-menuindex='3'>
                         <a href="productshow.php?cid=1&id=3">
                           <div class="p-pic ">
-                              <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/3.jpg">
+                              <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/3-s.jpg">
                           </div>
                           <div class="p-txt-wrap">
                           <dl class="p-txt p1-txt-3">
@@ -327,7 +327,7 @@
                     <li class="menu-item-4" data-menuindex='4'>
                         <a href="productshow.php?cid=1&id=4">
                             <div class="p-pic ">
-                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/4.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/4-s.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -349,7 +349,7 @@
                     <li class="menu-item-5" data-menuindex='5'>
                         <a href="productshow.php?cid=1&id=5">
                             <div class="p-pic ">
-                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/5.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/5-s.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -369,7 +369,7 @@
                     <li class="menu-item-6" data-menuindex='6'>
                         <a href="productshow.php?cid=1&id=6">
                             <div class="p-pic ">
-                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/6.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/6-s.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -388,7 +388,7 @@
                     <li class="menu-item-7" data-menuindex='7'>
                         <a href="productshow.php?cid=1&id=7">
                             <div class="p-pic ">
-                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/7.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/7-s.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -405,7 +405,7 @@
                     <li class="menu-item-8" data-menuindex='8'>
                         <a href="productshow.php?cid=1&id=8">
                             <div class="p-pic ">
-                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/8.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/8-s.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -425,7 +425,7 @@
                     <li class="menu-item-9" data-menuindex='9'>
                         <a href="productshow.php?cid=1&id=9">
                           <div class="p-pic ">
-                              <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/9.jpg">
+                              <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/9-s.jpg">
                           </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -444,7 +444,7 @@
                     <li class="menu-item-10" data-menuindex='10'>
                         <a href="productshow.php?cid=1&id=10">
                             <div class="p-pic ">
-                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/10.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/10-s.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -463,7 +463,7 @@
                     <li class="menu-item-11" data-menuindex='11'>
                         <a href="productshow.php?cid=1&id=11">
                             <div class="p-pic ">
-                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/11.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/11-s.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
@@ -479,7 +479,7 @@
                     <li class="menu-item-12" data-menuindex='12'>
                         <a href="productshow.php?cid=1&id=12">
                             <div class="p-pic ">
-                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/12.jpg">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/page/1-1/12-s.jpg">
                             </div>
                           <div class="p-txt-wrap">
                             <dl class="p-txt p1-txt-4">
