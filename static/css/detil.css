@@ -10,12 +10,13 @@ body{
 .nwrap{
   max-width: 1180px;
   margin: 0 auto;
+  min-width: 900px;
 }
 /* header */
 .topheader {
   width: 100%;
   position: relative;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 1);
   height: 11.25rem;
   padding-top: 4rem;
   transition: all .8s;
@@ -27,9 +28,11 @@ body{
 .topheader .nwrap{
   display: flex;
   display: -webkit-flex;
+  min-width: 900px;
+  margin: 0 auto;
 }
 .topheader .logo-wrap{
-  width: 36.5rem;
+  width: 26.5rem;
   padding-top: 0.5rem;
   padding-left: 4rem;
 }
@@ -46,13 +49,17 @@ body{
   border-radius: 50%;
 }
 .topheader .logo-wrap .slogan-2{
-  width: 15.5rem;
-  background: url(../img/logo/phone-2.png) no-repeat left center;
-  background-size: auto 100%;
+  width: 11.3rem;
+  background: url(../img/logo/phone2.png) no-repeat left top;
+  background-size: 100% auto;
   margin-left: .8rem;
 }
 .header-sm .logo-wrap .logo{
   background: url(../img/logo/logo-green-hover.svg) no-repeat center center;
+}
+.header-sm  .logo-wrap .slogan-2{
+  background-position: left bottom !important;
+  background-size: 100% auto !important;
 }
 .topnav,
 .topnav ul,
@@ -208,6 +215,7 @@ body{
 .article-wrap{
   min-height: 30rem;
   text-align: center;
+  position: relative;
 }
 .article-wrap img{
   margin-bottom:1rem;
@@ -215,6 +223,43 @@ body{
   min-width: 800px;
   position: relative;
   z-index: 1;
+}
+.quickNav{
+  width: 3rem;
+  position: absolute;
+  height: 27rem;
+  top: 6rem;
+  right: -3rem;
+  padding: 0;
+  list-style: none;
+}
+.quickNav li{
+  /* background-color: #ccc; */
+  width: 100%;
+  height: 9rem;
+  position: relative;
+}
+.quickNav li a{
+  display: block;
+  width: 100%;
+  height: 8rem;
+  padding: 1rem 0;
+  margin: 0 auto;
+  background-color: #6EA082;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  width: 2rem;
+  line-height: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+.quickNav li a:hover{
+  background-color: #b0d339;
+}
+.quickNav li a .icon{
+  width: 1.4rem;
+  fill: white;
 }
 
 /*
