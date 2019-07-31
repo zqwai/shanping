@@ -515,7 +515,6 @@
 
           <div class="slogan slogan-2 col-xs-3 col-md-3">
               <div class="sloganbg"></div>
-            <!-- <img class='lazyPic' data-lazypicsrc="./static/img/slogan/p2.png" alt=""> -->
           </div>
 
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
@@ -544,30 +543,30 @@
                   <ul class="gif-1">
                     <li>
                       <a href="productshow.php?cid=1&id=13">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/1.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/1-s.jpg" alt="">
                       </a>
                     </li>
                     <li>
                       <a href="productshow.php?cid=1&id=13">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/2.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/2-s.jpg" alt="">
                       </a>
                     </li>
                   </ul>
                   <ul class="gif-2">
                     <li>
                       <a href="productshow.php?cid=1&id=13">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/3.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/3-s.jpg" alt="">
                       </a>
                     </li>
                     <li>
                       <a href="productshow.php?cid=1&id=13">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/4.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/4-s.jpg" alt="">
                         <div class="p-txt t-txt-hover"></div>
                       </a>
                     </li>
                     <li>
                       <a href="productshow.php?cid=1&id=13">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/5.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/5-s.jpg" alt="">
                       </a>
                     </li>
                   </ul>
@@ -619,7 +618,7 @@
                   <ul class="recommend-inline">
                     <li>
                       <a href="/productshow.php?cid=2&id=14">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-3/1.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-3/1-s.jpg" alt="">
                         <div class="p-txt-wrap">
                           <dl class="p-txt">
                             <dt class="tit">打样范畴</dt>
@@ -636,7 +635,7 @@
                     </li>
                     <li class="green-wrap">
                       <a href="/productshow.php?cid=2&id=14">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-3/2.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-3/2-s.jpg" alt="">
                         <div class="p-txt-wrap p-txt-c-wrap">
                           <img class='lazyPic' data-lazypicsrc="./static/img/page/page-3-1-2.png" alt="">
                           <dl class="p-txt">
@@ -650,7 +649,7 @@
                     </li>
                     <li>
                       <a href="/productshow.php?cid=2&id=14">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-3/3.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-3/3-s.jpg" alt="">
                         <div class="p-txt-wrap">
                           <dl class="p-txt">
                             <dt class="tit">常备纸张/辅料</dt>
@@ -710,7 +709,7 @@
                   <ul class="recommend-inline">
                     <li data-menuindex="1">
                       <a href="productshow.php?cid=2&id=15">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/1.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/1-s.jpg" alt="">
                         <div class="p-txt-wrap p-0">
                           <img class='lazyPic' data-lazypicsrc="./static/img/page/page-4-1-1.jpg" alt="">
                           <div class="p-txt t-txt-hover"></div>
@@ -720,7 +719,7 @@
                     </li>
                     <li data-menuindex="2">
                       <a href="productshow.php?cid=2&id=16">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/2.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/2-s.jpg" alt="">
                         <div class="p-txt-wrap">
                           <img class='lazyPic' data-lazypicsrc="./static/img/page/page-4-2-1.jpg" alt="">
                           <div class="p-txt t-txt-hover"></div>
@@ -729,7 +728,7 @@
                     </li>
                     <li data-menuindex="3">
                       <a href="productshow.php?cid=2&id=17">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/3.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/3-s.jpg" alt="">
                         <div class="p-txt-wrap">
                           <img class='lazyPic' data-lazypicsrc="./static/img/page/page-4-3-1.jpg" alt="">
                           <div class="p-txt t-txt-hover"></div>
@@ -738,7 +737,7 @@
                     </li>
                     <li data-menuindex="4">
                       <a href="productshow.php?cid=2&id=18">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/4.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/4-s.jpg" alt="">
                         <div class="p-txt-wrap">
                           <img class='lazyPic' data-lazypicsrc="./static/img/page/page-4-4-1.jpg" alt="">
                           <div class="p-txt t-txt-hover"></div>
@@ -747,7 +746,7 @@
                     </li>
                     <li data-menuindex="5">
                       <a href="productshow.php?cid=2&id=19">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/5.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-4/5-s.jpg" alt="">
                         <div class="p-txt-wrap">
                           <img class='lazyPic' data-lazypicsrc="./static/img/page/page-4-5-1.jpg" alt="">
                           <div class="p-txt t-txt-hover"></div>
@@ -804,7 +803,7 @@
                   <ul class="recommend-inline">
                     <li>
                       <a href="javacript:;">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/1.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/1-s.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt" style="height: auto;margin-bottom:1rem;">
                               <dt class="tit">双灰板</dt>
@@ -818,7 +817,7 @@
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/2.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/2-s.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                             <dt class="tit">密度板</dt>
@@ -830,7 +829,7 @@
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/3.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/3-s.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                             <dt class="tit">EVA高弹泡棉</dt>
@@ -846,7 +845,7 @@
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/4.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/4-s.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">EPE 珍珠棉</dt>
@@ -862,7 +861,7 @@
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/5.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/5-s.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">海绵</dt>
@@ -882,7 +881,7 @@
                   <ul class="recommend-inline">
                     <li>
                       <a href="javacript:;">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/6.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/6-s.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">吸塑泡壳</dt>
@@ -898,7 +897,7 @@
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/7.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/7-s.jpg" alt="泡沫发泡+绸布">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">泡沫发泡+绸布</dt>
@@ -910,7 +909,7 @@
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/8.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/8-s.jpg" alt="彩瓦">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">彩瓦</dt>
@@ -922,7 +921,7 @@
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/9.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/9-s.jpg" alt="拉菲草">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">拉菲草</dt>
@@ -933,7 +932,7 @@
                     </li>
                     <li>
                       <a href="javacript:;">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/10.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-5/10-s.jpg" alt="金银卡纸">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">金银卡纸</dt>
@@ -966,7 +965,6 @@
 
             <div class="slogan slogan-6 col-xs-3 col-md-3">
                 <div class="sloganbg"></div>
-              <!-- <img class='lazyPic' data-lazypicsrc="./static/img/slogan/p6.png" alt=""> -->
             </div>
 
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
@@ -992,7 +990,7 @@
                   <ul class="recommend-inline">
                     <li data-menuindex="1">
                       <a href="productshow.php?cid=2&id=20">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-6/1.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-6/1-s.jpg" alt="卡纸盒">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">卡纸盒</dt>
@@ -1007,7 +1005,7 @@
                     </li>
                     <li data-menuindex="2">
                       <a href="productshow.php?cid=2&id=21">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-6/2.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-6/2-s.jpg" alt="彩瓦盒">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">彩瓦盒</dt>
@@ -1024,7 +1022,7 @@
                     </li>
                     <li data-menuindex="3">
                       <a href="productshow.php?cid=2&id=22">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-6/3.jpg" alt="">
+                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-6/3-s.jpg" alt="">
                         <div class="p-txt-wrap p5-txt-wrap">
                           <dl class="p-txt">
                               <dt class="tit">手提纸袋</dt>
@@ -1059,7 +1057,6 @@
 
             <div class="slogan slogan-7 col-xs-3 col-md-3">
                 <div class="sloganbg"></div>
-              <!-- <img class='lazyPic' data-lazypicsrc="./static/img/slogan/p7.png" alt=""> -->
             </div>
 
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
@@ -1153,10 +1150,10 @@
 
               <nav class="sub-nav"></nav>
               <div class="cont-1">
-                  <img class='lazyPic' data-lazypicsrc="./static/img/page/cont-1.png" class="cont-pic-1">
+                  <img class='cont-pic-1 lazyPic' data-lazypicsrc="./static/img/page/cont-1.png" class="cont-pic-1">
               </div>
               <div class="cont-2">
-                  <img class='lazyPic' data-lazypicsrc="./static/img/page/cont-2.jpg" class="cont-pic-2">
+                  <img class='cont-pic-2 lazyPic' data-lazypicsrc="./static/img/page/cont-2.jpg" class="cont-pic-2">
               </div>
               <div class="cont-3">
                 <div class="shuiyin"></div>
