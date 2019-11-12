@@ -86,155 +86,13 @@
             <polygon class="st0" points="51.8,0 26,19.7 0,0 1.1,0 26,18.9 50.8,0 	"/>
           </svg>
       </div>
-      <div class="company-wrap dflex">
-        <dl class="item company">
-          <dd class="info-1">体系工厂</dd>
-          <dd class="info-2">
-
-            <svg class="svg-icon" viewBox="0 0 110.5 40.6" >
-                <polygon class="st0" points="12.5,39.8 6.8,39.8 6.8,5.4 0,5.4 0,0.8 12.5,0.8 	"/>
-                <path class="st0" d="M43.8,14.2c0-2.4-0.8-4.5-2.4-6.1c-1.6-1.7-3.5-2.5-5.7-2.5c-2.5,0-4.4,0.8-5.9,2.3s-2.2,3.5-2.2,6.1
-                  c0,2.4,0.8,4.4,2.2,6c1.5,1.5,3.4,2.3,5.7,2.3c2.3,0,4.3-0.8,5.8-2.3C43,18.3,43.8,16.4,43.8,14.2L43.8,14.2z M34.7,39.8h-6.3
-                  l8.9-13.2c-0.6,0.2-1.1,0.4-1.6,0.5s-1,0.2-1.4,0.2c-3.4,0-6.3-1.3-8.7-3.8c-2.4-2.6-3.6-5.7-3.6-9.3c0-1.2,0.2-2.4,0.5-3.7
-                  C22.8,9.3,23.3,8,24,6.8c1.2-2.2,2.8-3.9,4.8-5c2-1.2,4.3-1.8,6.8-1.8c1.8,0,3.6,0.3,5.2,1s3,1.7,4.3,3s2.3,2.8,3,4.4
-                  s1.1,3.3,1.1,4.9c0,3.4-1.9,7.8-5.6,13.4L43.3,27L34.7,39.8L34.7,39.8z"/>
-                <path class="st0" d="M53,26.1V14.6c0-2.4,0.2-4.3,0.5-5.6c0.4-1.3,1-2.5,1.8-3.6c1.3-1.7,2.9-3,4.8-3.9s4-1.4,6.2-1.4
-                  c2.4,0,4.5,0.5,6.4,1.4c1.9,1,3.5,2.4,4.8,4.2c0.7,1,1.2,2.2,1.6,3.6c0.3,1.4,0.5,3,0.5,5v11.9c0,2.1-0.2,3.9-0.5,5.3
-                  s-0.9,2.6-1.6,3.6c-1.3,1.7-2.9,3.1-4.8,4s-4.1,1.4-6.4,1.4s-4.3-0.4-6.2-1.4c-1.9-0.9-3.5-2.2-4.9-3.9c-0.8-1-1.4-2.2-1.7-3.7
-                  C53.2,30.2,53,28.4,53,26.1L53,26.1z M58.9,27.1v0.6c0,1.2,0.1,2.2,0.2,2.8c0.1,0.6,0.4,1.1,0.7,1.6c0.7,1,1.6,1.8,2.7,2.3
-                  c1.2,0.6,2.4,0.8,3.8,0.8c2.5,0,4.4-0.7,5.7-2.1c1.3-1.4,1.9-3.5,1.9-6.3v-13c0-1.6-0.1-2.8-0.2-3.4c-0.1-0.7-0.4-1.2-0.7-1.7
-                  c-0.7-1-1.6-1.8-2.7-2.4c-1.2-0.6-2.4-0.8-3.8-0.8s-2.6,0.3-3.7,0.8s-2,1.3-2.7,2.2c-0.4,0.5-0.6,1.2-0.8,1.9
-                  c-0.2,0.7-0.2,1.9-0.2,3.4L58.9,27.1L58.9,27.1z"/>
-                <path class="st0" d="M83.9,26.1V14.6c0-2.4,0.2-4.3,0.5-5.6c0.4-1.3,1-2.5,1.8-3.6c1.3-1.7,2.9-3,4.8-3.9s4-1.4,6.2-1.4
-                  c2.4,0,4.5,0.5,6.4,1.4c1.9,1,3.5,2.4,4.8,4.2c0.7,1,1.2,2.2,1.6,3.6c0.3,1.4,0.5,3,0.5,5v11.9c0,2.1-0.2,3.9-0.5,5.3
-                  s-0.9,2.6-1.6,3.6c-1.3,1.7-2.9,3.1-4.8,4c-1.9,0.9-4.1,1.4-6.4,1.4c-2.3,0-4.3-0.4-6.2-1.4c-1.9-0.9-3.5-2.2-4.9-3.9
-                  c-0.8-1-1.4-2.2-1.7-3.7C84,30.2,83.9,28.4,83.9,26.1L83.9,26.1z M89.7,27.1v0.6c0,1.2,0.1,2.2,0.2,2.8c0.1,0.6,0.4,1.1,0.7,1.6
-                  c0.7,1,1.6,1.8,2.7,2.3c1.2,0.6,2.4,0.8,3.8,0.8c2.5,0,4.4-0.7,5.7-2.1c1.3-1.4,1.9-3.5,1.9-6.3v-13c0-1.6-0.1-2.8-0.2-3.4
-                  c-0.1-0.7-0.4-1.2-0.7-1.7c-0.7-1-1.6-1.8-2.7-2.4c-1.2-0.6-2.4-0.8-3.8-0.8c-1.4,0-2.6,0.3-3.7,0.8s-2,1.3-2.7,2.2
-                  c-0.4,0.5-0.6,1.2-0.8,1.9c-0.2,0.7-0.2,1.9-0.2,3.4v13.3H89.7z"/>
-            </svg>
-
-            <!-- <span class="num">1900</span> -->
-            <span class="ink">平方</span>
-          </dd>
-          <dd class="info-3">
-              数码打印割样车间，激光刀模车间
-          </dd>
-          <dd class="info-4">
-              体系化独产空间，实现产品从无到有的落地
-          </dd>
-        </dl>
-
-        <dl class="item product">
-            <dd class="info-1">生产能力</dd>
-            <dd class="info-2">
-                <svg  class="svg-icon" version="1.1" viewBox="0 0 139.9 40.6">
-                  <g id="_226560392">
-                    <polygon id="_230864904" class="st0" points="12.5,39.8 6.8,39.8 6.8,5.3 0,5.3 0,0.7 12.5,0.7 		"/>
-                    <path id="_229065200" class="st0" d="M20.6,26.1V14.5c0-2.4,0.2-4.3,0.5-5.6c0.4-1.3,1-2.5,1.8-3.6c1.3-1.7,2.9-3,4.8-3.9
-                      C29.6,0.4,31.7,0,34,0c2.4,0,4.5,0.5,6.4,1.4c1.9,1,3.5,2.4,4.8,4.2c0.7,1,1.2,2.2,1.6,3.6c0.3,1.4,0.5,3,0.5,5.1v11.9
-                      c0,2.1-0.2,3.9-0.5,5.3c-0.3,1.4-0.9,2.6-1.6,3.6c-1.3,1.7-2.9,3.1-4.8,4c-2,0.9-4.1,1.4-6.4,1.4c-2.3,0-4.3-0.4-6.2-1.4
-                      c-1.9-0.9-3.5-2.2-4.9-3.9c-0.8-1-1.4-2.2-1.7-3.7C20.8,30.2,20.6,28.4,20.6,26.1L20.6,26.1z M26.5,27.1v0.6
-                      c0,1.2,0.1,2.2,0.2,2.8c0.1,0.6,0.4,1.1,0.7,1.6c0.7,1,1.6,1.8,2.7,2.3c1.2,0.6,2.4,0.8,3.8,0.8c2.5,0,4.4-0.7,5.7-2.1
-                      c1.3-1.4,1.9-3.5,1.9-6.3V13.7c0-1.6-0.1-2.8-0.2-3.4c-0.1-0.7-0.4-1.2-0.7-1.7c-0.7-1-1.6-1.8-2.7-2.4c-1.2-0.6-2.4-0.8-3.8-0.8
-                      c-1.4,0-2.6,0.3-3.7,0.8c-1.1,0.5-2,1.3-2.7,2.2c-0.4,0.5-0.6,1.2-0.8,1.9c-0.2,0.7-0.2,1.9-0.2,3.4V27.1L26.5,27.1z"/>
-                    <path id="_229066088" class="st0" d="M51.5,26.1V14.5c0-2.4,0.2-4.3,0.5-5.6c0.4-1.3,1-2.5,1.8-3.6c1.3-1.7,2.9-3,4.8-3.9
-                      c1.9-0.9,4-1.4,6.2-1.4c2.4,0,4.5,0.5,6.4,1.4c1.9,1,3.5,2.4,4.8,4.2c0.7,1,1.2,2.2,1.6,3.6c0.3,1.4,0.5,3,0.5,5.1v11.9
-                      c0,2.1-0.2,3.9-0.5,5.3c-0.3,1.4-0.9,2.6-1.6,3.6c-1.3,1.7-2.9,3.1-4.8,4c-2,0.9-4.1,1.4-6.4,1.4c-2.3,0-4.3-0.4-6.2-1.4
-                      c-1.9-0.9-3.5-2.2-4.9-3.9c-0.8-1-1.4-2.2-1.7-3.7C51.7,30.2,51.5,28.4,51.5,26.1L51.5,26.1z M57.3,27.1v0.6
-                      c0,1.2,0.1,2.2,0.2,2.8c0.1,0.6,0.4,1.1,0.7,1.6c0.7,1,1.6,1.8,2.7,2.3c1.2,0.6,2.4,0.8,3.8,0.8c2.5,0,4.4-0.7,5.7-2.1
-                      c1.3-1.4,1.9-3.5,1.9-6.3V13.7c0-1.6-0.1-2.8-0.2-3.4c-0.1-0.7-0.4-1.2-0.7-1.7c-0.7-1-1.6-1.8-2.7-2.4c-1.2-0.6-2.4-0.8-3.8-0.8
-                      c-1.4,0-2.6,0.3-3.7,0.8c-1.1,0.5-2,1.3-2.7,2.2C58,9,57.7,9.6,57.6,10.3c-0.2,0.7-0.2,1.9-0.2,3.4L57.3,27.1L57.3,27.1z"/>
-                    <path id="_229066976" class="st0" d="M82.4,26.1V14.5c0-2.4,0.2-4.3,0.5-5.6c0.4-1.3,1-2.5,1.8-3.6c1.3-1.7,2.9-3,4.8-3.9
-                      c1.9-0.9,4-1.4,6.2-1.4c2.4,0,4.5,0.5,6.4,1.4c1.9,1,3.5,2.4,4.8,4.2c0.7,1,1.2,2.2,1.6,3.6c0.3,1.4,0.5,3,0.5,5.1v11.9
-                      c0,2.1-0.2,3.9-0.5,5.3c-0.3,1.4-0.9,2.6-1.6,3.6c-1.3,1.7-2.9,3.1-4.8,4c-2,0.9-4.1,1.4-6.4,1.4c-2.3,0-4.3-0.4-6.2-1.4
-                      c-1.9-0.9-3.5-2.2-4.9-3.9c-0.8-1-1.4-2.2-1.7-3.7C82.5,30.2,82.4,28.4,82.4,26.1L82.4,26.1z M88.2,27.1v0.6
-                      c0,1.2,0.1,2.2,0.2,2.8c0.1,0.6,0.4,1.1,0.7,1.6c0.7,1,1.6,1.8,2.7,2.3c1.2,0.6,2.4,0.8,3.8,0.8c2.5,0,4.4-0.7,5.7-2.1
-                      c1.3-1.4,1.9-3.5,1.9-6.3V13.7c0-1.6-0.1-2.8-0.2-3.4c-0.1-0.7-0.4-1.2-0.7-1.7c-0.7-1-1.6-1.8-2.7-2.4c-1.2-0.6-2.4-0.8-3.8-0.8
-                      c-1.4,0-2.6,0.3-3.7,0.8c-1.1,0.5-2,1.3-2.7,2.2c-0.4,0.5-0.6,1.2-0.8,1.9c-0.2,0.7-0.2,1.9-0.2,3.4V27.1L88.2,27.1z"/>
-                    <path id="_229067864" class="st0" d="M113.2,26.1V14.5c0-2.4,0.2-4.3,0.5-5.6c0.4-1.3,1-2.5,1.8-3.6c1.3-1.7,2.9-3,4.8-3.9
-                      c1.9-0.9,4-1.4,6.2-1.4c2.4,0,4.5,0.5,6.4,1.4c1.9,1,3.5,2.4,4.8,4.2c0.7,1,1.2,2.2,1.6,3.6c0.3,1.4,0.5,3,0.5,5.1v11.9
-                      c0,2.1-0.2,3.9-0.5,5.3c-0.3,1.4-0.9,2.6-1.6,3.6c-1.3,1.7-2.9,3.1-4.8,4c-2,0.9-4.1,1.4-6.4,1.4c-2.3,0-4.3-0.4-6.2-1.4
-                      c-1.9-0.9-3.5-2.2-4.9-3.9c-0.8-1-1.4-2.2-1.7-3.7C113.4,30.2,113.2,28.4,113.2,26.1L113.2,26.1z M119.1,27.1v0.6
-                      c0,1.2,0.1,2.2,0.2,2.8c0.1,0.6,0.4,1.1,0.7,1.6c0.7,1,1.6,1.8,2.7,2.3c1.2,0.6,2.4,0.8,3.8,0.8c2.5,0,4.4-0.7,5.7-2.1
-                      c1.3-1.4,1.9-3.5,1.9-6.3V13.7c0-1.6-0.1-2.8-0.2-3.4c-0.1-0.7-0.4-1.2-0.7-1.7c-0.7-1-1.6-1.8-2.7-2.4c-1.2-0.6-2.4-0.8-3.8-0.8
-                      c-1.4,0-2.6,0.3-3.7,0.8c-1.1,0.5-2,1.3-2.7,2.2c-0.4,0.5-0.6,1.2-0.8,1.9c-0.2,0.7-0.2,1.9-0.2,3.4V27.1L119.1,27.1z"/>
-                  </g>
-                </svg>
-
-              <!-- <span class="num">10000</span> -->
-              <span class="ink">+</span>
-            </dd>
-            <dd class="info-3">
-                天地盖全自动设备，雅马哈机械手影像定位机
-            </dd>
-            <dd class="info-4">
-                实现精度与速度的双重保证
-            </dd>
-          </dl>
-
-        <dl class="item result">
-            <dd class="info-1">快速出样</dd>
-            <dd class="info-2">
-                <svg class="svg-icon" version="1.1" viewBox="0 0 57.6 40.6">
-                    <path class="st0" d="M14.3,0.7h6.2L11.7,14c0.6-0.2,1.1-0.4,1.6-0.5s1-0.2,1.4-0.2c3.4,0,6.3,1.3,8.7,3.8c2.4,2.6,3.6,5.7,3.6,9.3
-                    c0,1.2-0.2,2.4-0.5,3.6s-0.8,2.4-1.5,3.6c-1.2,2.3-2.8,4-4.8,5.1c-2,1.2-4.3,1.7-6.8,1.7c-1.8,0-3.6-0.3-5.2-1s-3.1-1.7-4.3-3
-                    C2.6,35.1,1.7,33.7,1,32c-0.7-1.6-1-3.3-1-5c0-3.4,1.9-7.9,5.8-13.7l0,0L14.3,0.7L14.3,0.7z M5.3,26.5c0,2.4,0.8,4.4,2.4,6.1
-                    c1.6,1.7,3.5,2.5,5.7,2.5c2.3,0,4.3-0.8,5.8-2.3c1.5-1.6,2.3-3.6,2.3-6s-0.8-4.4-2.2-6c-1.5-1.6-3.4-2.3-5.7-2.3
-                    c-2.3,0-4.2,0.8-5.8,2.4C6.1,22.4,5.3,24.3,5.3,26.5L5.3,26.5z"/>
-                  <path class="st0" d="M31,26.1V14.5c0-2.4,0.2-4.3,0.5-5.6c0.4-1.3,1-2.5,1.8-3.6c1.3-1.7,2.9-3,4.8-3.9s4-1.4,6.2-1.4
-                    c2.4,0,4.5,0.5,6.4,1.4c1.9,1,3.5,2.4,4.8,4.2c0.7,1,1.2,2.2,1.6,3.6c0.3,1.4,0.5,3,0.5,5.1v11.9c0,2.1-0.2,3.9-0.5,5.3
-                    s-0.9,2.6-1.6,3.6c-1.3,1.7-2.9,3.1-4.8,4c-2,0.9-4.1,1.4-6.4,1.4c-2.3,0-4.3-0.4-6.2-1.4c-1.9-0.9-3.5-2.2-4.9-3.9
-                    c-0.8-1-1.4-2.2-1.7-3.7C31.2,30.2,31,28.4,31,26.1L31,26.1z M36.9,27.1v0.6c0,1.2,0.1,2.2,0.2,2.8c0.1,0.6,0.4,1.1,0.7,1.6
-                    c0.7,1,1.6,1.8,2.7,2.3c1.2,0.6,2.4,0.8,3.8,0.8c2.5,0,4.4-0.7,5.7-2.1c1.3-1.4,1.9-3.5,1.9-6.3V13.7c0-1.6-0.1-2.8-0.2-3.4
-                    c-0.1-0.7-0.4-1.2-0.7-1.7c-0.7-1-1.6-1.8-2.7-2.4c-1.2-0.6-2.4-0.8-3.8-0.8c-1.4,0-2.6,0.3-3.7,0.8s-2,1.3-2.7,2.2
-                    c-0.4,0.5-0.6,1.2-0.8,1.9c-0.2,0.7-0.2,1.9-0.2,3.4v13.4H36.9z"/>
-                </svg>
-              <!-- <span class="num">60</span> -->
-              <span class="ink">分钟</span>
-            </dd>
-            <dd class="info-3">
-                爱普生P8080数码打印机，电脑切割机器人
-            </dd>
-            <dd class="info-4">
-                让实样与大货保持高度统一性
-            </dd>
-          </dl>
-
-          <dl class="item server">
-            <dd class="info-1">服务客户</dd>
-            <dd class="info-2">
-              <svg class="svg-icon" version="1.1" viewBox="0 0 87.4 40.6">
-                <path class="st0" d="M24.7,39.8H0v-5.5l13.7-13.1l0.2-0.2c3.6-3.5,5.4-6.4,5.4-8.7c0-2-0.7-3.7-2-5c-1.3-1.3-3-2-5.1-2
-                  c-2.2,0-3.9,0.7-5.1,2.1c-1.2,1.4-1.8,3.3-1.8,5.7v0.4H0v-0.1c0-4.1,1.2-7.3,3.5-9.8C5.8,1.2,8.9,0,12.7,0c3.4,0,6.3,1.2,8.6,3.6
-                  c2.4,2.4,3.5,5.2,3.5,8.6c0,1.9-0.4,3.7-1.3,5.4c-0.9,1.7-2.3,3.5-4.3,5.4L7,34.4h17.7L24.7,39.8L24.7,39.8z"/>
-                <path class="st0" d="M29.9,26.1V14.5c0-2.4,0.2-4.3,0.5-5.6c0.4-1.3,1-2.5,1.8-3.6c1.3-1.7,2.9-3,4.8-3.9C39,0.4,41,0,43.3,0
-                  c2.4,0,4.5,0.5,6.4,1.4c1.9,1,3.5,2.4,4.8,4.2c0.7,1,1.2,2.2,1.6,3.6c0.3,1.4,0.5,3,0.5,5.1v11.9c0,2.1-0.2,3.9-0.5,5.3
-                  c-0.3,1.4-0.9,2.6-1.6,3.6c-1.3,1.7-2.9,3.1-4.8,4c-2,0.9-4.1,1.4-6.4,1.4c-2.3,0-4.3-0.4-6.2-1.4c-1.9-0.9-3.5-2.2-4.9-3.9
-                  c-0.8-1-1.4-2.2-1.7-3.7C30.1,30.2,29.9,28.4,29.9,26.1L29.9,26.1z M35.8,27.1v0.6c0,1.2,0.1,2.2,0.2,2.8c0.1,0.6,0.4,1.1,0.7,1.6
-                  c0.7,1,1.6,1.8,2.7,2.3c1.2,0.6,2.4,0.8,3.8,0.8c2.5,0,4.4-0.7,5.7-2.1c1.3-1.4,1.9-3.5,1.9-6.3V13.8c0-1.6-0.1-2.8-0.2-3.4
-                  c-0.1-0.7-0.4-1.2-0.7-1.7c-0.7-1-1.6-1.8-2.7-2.4c-1.2-0.6-2.4-0.8-3.8-0.8c-1.4,0-2.6,0.3-3.7,0.8c-1.1,0.5-2,1.3-2.7,2.2
-                  C36.4,9,36.2,9.6,36,10.3c-0.2,0.7-0.2,1.9-0.2,3.4L35.8,27.1L35.8,27.1z"/>
-                <path class="st0" d="M60.8,26.1V14.5c0-2.4,0.2-4.3,0.5-5.6c0.4-1.3,1-2.5,1.8-3.6c1.3-1.7,2.9-3,4.8-3.9c1.9-0.9,4-1.4,6.2-1.4
-                  c2.4,0,4.5,0.5,6.4,1.4c1.9,1,3.5,2.4,4.8,4.2c0.7,1,1.2,2.2,1.6,3.6c0.3,1.4,0.5,3,0.5,5.1v11.9c0,2.1-0.2,3.9-0.5,5.3
-                  c-0.3,1.4-0.9,2.6-1.6,3.6c-1.3,1.7-2.9,3.1-4.8,4c-2,0.9-4.1,1.4-6.4,1.4c-2.3,0-4.3-0.4-6.2-1.4c-1.9-0.9-3.5-2.2-4.9-3.9
-                  c-0.8-1-1.4-2.2-1.7-3.7C61,30.2,60.8,28.4,60.8,26.1L60.8,26.1z M66.6,27.1v0.6c0,1.2,0.1,2.2,0.2,2.8c0.1,0.6,0.4,1.1,0.7,1.6
-                  c0.7,1,1.6,1.8,2.7,2.3c1.2,0.6,2.4,0.8,3.8,0.8c2.5,0,4.4-0.7,5.7-2.1c1.3-1.4,1.9-3.5,1.9-6.3V13.8c0-1.6-0.1-2.8-0.2-3.4
-                  c-0.1-0.7-0.4-1.2-0.7-1.7c-0.7-1-1.6-1.8-2.7-2.4c-1.2-0.6-2.4-0.8-3.8-0.8c-1.4,0-2.6,0.3-3.7,0.8c-1.1,0.5-2,1.3-2.7,2.2
-                  C67.3,9,67,9.6,66.9,10.3c-0.2,0.7-0.2,1.9-0.2,3.4V27.1L66.6,27.1z"/>
-              </svg>
-              <!-- <span class="num">200</span> -->
-              <span class="ink">+</span>
-            </dd>
-            <dd class="info-3">
-                立足杭州，服务杭州企业
-            </dd>
-            <dd class="info-4">
-                发扬尚品工匠精神，包装杭州城市品牌
-            </dd>
-          </dl>
-
-        </div>
+      <div class="i__pic_cont">
+        <a href="productshow.php?cid=1&id=45" class="i__link"></a>
+        <div class="i_pic i_pic_1"></div>
+        <div class="i_pic i_pic_2"></div>
+        <div class="i_pic i_pic_3"></div>
+        <div class="i_pic i_pic_4"></div>
+      </div>
     </section>
 
     <section id="page1" class="page page1 row p-0 m-0 h-100">
@@ -249,13 +107,7 @@
 
         <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
-        <div class="top-link-wrap  ta-r">
-          <a href="/" class="item">尚品包装</a>
-          <span class="item-txt">·</span>
-          <a href="javascript:;" class="item">沃霖印刷</a>
-          <span class="item-txt">·</span>
-          <a href="javascript:;" class="item">沃霖文创</a>
-        </div>
+          <?php require('toplink__tool.php'); ?>
 
           <nav class="sub-nav">
             <ul class='dflex'>
@@ -280,7 +132,7 @@
                           <dl class="p-txt p1-txt-1">
                               <dt class="tit">时节类</dt>
 
-                              <dd class="txt">茶叶礼</dd>
+                              <dd class="txt">茶叶礼盒</dd>
                               <dd class="txt">粽子盒</dd>
                               <dd class="txt">月饼盒</dd>
                               <dd class="txt">情人节礼盒</dd>
@@ -300,7 +152,7 @@
                           <dl class="p-txt p1-txt-2">
                             <dt class="tit">烟酒类</dt>
                             <dd class="txt">酒类精包装</dd>
-                            <dd class="txt">各类烟包</dd>
+                            <dd class="txt">各类烟包装</dd>
                           </dl>
                           <div class="p-txt t-txt-hover"></div>
                         </div>
@@ -519,13 +371,7 @@
 
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
-            <div class="top-link-wrap  ta-r">
-              <a href="/" class="item">尚品包装</a>
-              <span class="item-txt">·</span>
-              <a href="javascript:;" class="item">沃霖印刷</a>
-              <span class="item-txt">·</span>
-              <a href="javascript:;" class="item">沃霖文创</a>
-            </div>
+          <?php require('toplink__tool.php'); ?>
 
             <nav class="sub-nav">
               <ul class="clearfix">
@@ -537,41 +383,162 @@
               </ul>
             </nav>
 
-            <section class="swiper-container recommend-2 giftbox">
+            <section class="swiper-container recommend recommend-1">
               <div class="swiper-wrapper">
-                <section class="swiper-slide">
-                  <ul class="gif-1">
-                    <li>
+
+                <section class="swiper-slide menu-team-1">
+                  <ul class="recommend-inline">
+                    <li class="menu-item-1" data-menuindex='1'>
                       <a href="productshow.php?cid=1&id=13">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/1-s.jpg" alt="">
-                      </a>
+                        <div class="p-pic ">
+                            <img class="lazyPic" data-lazypicsrc="./static/img/pro/p2/1.jpg">
+                        </div>
+
+                        <div class="p-txt-wrap">
+                          <dl class="p-txt p1-txt-1">
+                              <dt class="tit">组合式—1</dt>
+
+                              <dd class="txt">封套式</dd>
+                              <dd class="txt">外套左右对插</dd>
+                          </dl>
+                          <div class="p-txt t-txt-hover"></div>
+                        </div>
+                        </a>
                     </li>
-                    <li>
-                      <a href="productshow.php?cid=1&id=13">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/2-s.jpg" alt="">
-                      </a>
+                    <li class="menu-item-2" data-menuindex='2'>
+                        <a href="productshow.php?cid=1&id=13">
+                            <div class="p-pic ">
+                                <img class="lazyPic" data-lazypicsrc="./static/img/pro/p2/2.jpg">
+                            </div>
+                          <div class="p-txt-wrap">
+                          <dl class="p-txt p1-txt-2">
+                            <dt class="tit">组合式—2</dt>
+                            <dd class="txt">左右对开（底部连接）</dd>
+                            <dd class="txt">内盒形式可多变</dd>
+                            <dd class="txt">可做独立空间、可根据产品分配高度及宽度</dd>
+                            <dd class="txt">适用多种或多样式产品的单独空展展示</dd>
+                          </dl>
+                          <div class="p-txt t-txt-hover"></div>
+                        </div>
+                        </a>
                     </li>
-                  </ul>
-                  <ul class="gif-2">
-                    <li>
-                      <a href="productshow.php?cid=1&id=13">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/3-s.jpg" alt="">
-                      </a>
+                    <li class="menu-item-3" data-menuindex='3'>
+                        <a href="productshow.php?cid=1&id=13">
+                          <div class="p-pic ">
+                              <img class="lazyPic" data-lazypicsrc="./static/img/pro/p2/3.jpg">
+                          </div>
+                          <div class="p-txt-wrap">
+                          <dl class="p-txt p1-txt-3">
+                              <dt class="tit">组合式—3</dt>
+
+                              <dd class="txt">上下盖式</dd>
+                              <dd class="txt">侧板固定上下两层盒子</dd>
+                              <dd class="txt">上层盒子向右180度展开</dd>
+                              <dd class="txt">上下盒子高度可调</dd>
+                              <dd class="txt">适用多种或多样式产品的单独空展展示</dd>
+                          </dl>
+                          <div class="p-txt t-txt-hover"></div>
+                        </div>
+                        </a>
                     </li>
-                    <li>
-                      <a href="productshow.php?cid=1&id=13">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/4-s.jpg" alt="">
-                        <div class="p-txt t-txt-hover"></div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="productshow.php?cid=1&id=13">
-                        <img class='lazyPic' data-lazypicsrc="./static/img/page/1-2/5-s.jpg" alt="">
-                      </a>
+                    <li class="menu-item-4" data-menuindex='4'>
+                        <a href="productshow.php?cid=1&id=13">
+                            <div class="p-pic ">
+                                <img class="lazyPic" data-lazypicsrc="./static/img/pro/p2/4.jpg">
+                            </div>
+                          <div class="p-txt-wrap">
+                            <dl class="p-txt p1-txt-4">
+                                <dt class="tit">组合式—4</dt>
+                                <dd class="txt">翻盖式</dd>
+                                <dd class="txt">侧板固定上下两层盒子</dd>
+                                <dd class="txt">上层盒子可以左右180度展开</dd>
+                                <dd class="txt">上下盒子高度可调</dd>
+                                <dd class="txt">适用多种或多样式产品的单独空展展示</dd>
+                            </dl>
+                            <div class="p-txt t-txt-hover"></div>
+                          </div>
+                        </a>
                     </li>
                   </ul>
                 </section>
+
+                <section class="swiper-slide  menu-team-2">
+                  <ul class="recommend-inline">
+                    <li class="menu-item-5" data-menuindex='5'>
+                        <a href="productshow.php?cid=1&id=13">
+                            <div class="p-pic ">
+                                <img class="lazyPic" data-lazypicsrc="./static/img/pro/p2/5.jpg">
+                            </div>
+                          <div class="p-txt-wrap">
+                            <dl class="p-txt p1-txt-4">
+                              <dt class="tit">组合式—5</dt>
+                              <dd class="txt">九宫格型</dd>
+                              <dd class="txt">格子可任意调整</dd>
+                              <dd class="txt">适用多种或多样式产品的单独空展展示</dd>
+                            </dl>
+                            <div class="p-txt t-txt-hover"></div>
+                          </div>
+
+                        </a>
+                    </li>
+                    <li class="menu-item-6" data-menuindex='6'>
+                        <a href="productshow.php?cid=1&id=13">
+                            <div class="p-pic ">
+                                <img class="lazyPic" data-lazypicsrc="./static/img/pro/p2/6.jpg">
+                            </div>
+                          <div class="p-txt-wrap">
+                            <dl class="p-txt p1-txt-4">
+                              <dt class="tit">组合式—6</dt>
+                              <dd class="txt">天地盖型</dd>
+                              <dd class="txt">由三个盒子组成</dd>
+                              <dd class="txt">中间盒子可用作中框</dd>
+                              <dd class="txt">适用多种或多样式产品的单独空展展示</dd>
+                            </dl>
+                            <div class="p-txt t-txt-hover"></div>
+                          </div>
+                        </a>
+                    </li>
+                    <li class="menu-item-7" data-menuindex='7'>
+                        <a href="productshow.php?cid=1&id=13">
+                            <div class="p-pic ">
+                                <img class="lazyPic" data-lazypicsrc="./static/img/pro/p2/7.jpg">
+                            </div>
+                          <div class="p-txt-wrap">
+                            <dl class="p-txt p1-txt-4">
+                              <dt class="tit">组合式—7</dt>
+    
+                              <dd class="txt">天地盖+抽屉盒</dd>
+                              <dd class="txt">下层双抽屉式，丝带上拉，盒子左右退出</dd>
+                              <dd class="txt">上下盒子高度可调</dd>
+                              <dd class="txt">适用多种或多样式产品的单独空展展示</dd>
+                            </dl>
+                            <div class="p-txt t-txt-hover"></div>
+                          </div>
+                        </a>
+                    </li>
+                    <li class="menu-item-8" data-menuindex='8'>
+                        <a href="productshow.php?cid=1&id=13">
+                            <div class="p-pic ">
+                                <img class="lazyPic" data-lazypicsrc="./static/img/pro/p2/8.jpg">
+                            </div>
+                          <div class="p-txt-wrap">
+                            <dl class="p-txt p1-txt-4">
+                              <dt class="tit">组合式—8</dt>
+    
+                              <dd class="txt">嵌入式</dd>
+                              <dd class="txt">上层盒子嵌入下层盒子底部</dd>
+                              <dd class="txt">上下盒子高度可调</dd>
+                              <dd class="txt">适用多种或多样式产品的单独空展展示</dd>
+                            </dl>
+                            <div class="p-txt t-txt-hover"></div>
+                          </div>
+                        </a>
+                    </li>
+                  </ul>
+                </section>
+
               </div>
+              <div class="swiper-pagination s-pagination s-pagination-1"></div>
             </section>
 
           </div>
@@ -593,13 +560,7 @@
 
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
-          <div class="top-link-wrap  ta-r">
-            <a href="/" class="item">尚品包装</a>
-            <span class="item-txt">·</span>
-            <a href="javascript:;" class="item">沃霖印刷</a>
-            <span class="item-txt">·</span>
-            <a href="javascript:;" class="item">沃霖文创</a>
-          </div>
+          <?php require('toplink__tool.php'); ?>
 
             <nav class="sub-nav">
               <ul class="clearfix">
@@ -688,13 +649,7 @@
 
             <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
-              <div class="top-link-wrap  ta-r">
-                <a href="/" class="item">尚品包装</a>
-                <span class="item-txt">·</span>
-                <a href="javascript:;" class="item">沃霖印刷</a>
-                <span class="item-txt">·</span>
-                <a href="javascript:;" class="item">沃霖文创</a>
-              </div>
+            <?php require('toplink__tool.php'); ?>
 
               <nav class="sub-nav">
                 <ul class="clearfix">
@@ -778,13 +733,7 @@
 
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
-              <div class="top-link-wrap  ta-r">
-                <a href="/" class="item">尚品包装</a>
-                <span class="item-txt">·</span>
-                <a href="javascript:;" class="item">沃霖印刷</a>
-                <span class="item-txt">·</span>
-                <a href="javascript:;" class="item">沃霖文创</a>
-              </div>
+          <?php require('toplink__tool.php'); ?>
 
             <nav class="sub-nav">
               <ul class="clearfix">
@@ -969,13 +918,8 @@
 
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
-              <div class="top-link-wrap  ta-r">
-                <a href="/" class="item">尚品包装</a>
-                <span class="item-txt">·</span>
-                <a href="javascript:;" class="item">沃霖印刷</a>
-                <span class="item-txt">·</span>
-                <a href="javascript:;" class="item">沃霖文创</a>
-              </div>
+
+          <?php require('toplink__tool.php'); ?>
 
             <nav class="sub-nav">
               <ul class="clearfix">
@@ -1061,13 +1005,7 @@
 
           <div class="cont-wrap col-xs-8 col-md-8 p-0">
 
-              <div class="top-link-wrap  ta-r">
-                <a href="/" class="item">尚品包装</a>
-                <span class="item-txt">·</span>
-                <a href="javascript:;" class="item">沃霖印刷</a>
-                <span class="item-txt">·</span>
-                <a href="javascript:;" class="item">沃霖文创</a>
-              </div>
+            <?php require('toplink__tool.php'); ?>
 
             <nav class="sub-nav">
                 <ul class="clearfix">
@@ -1084,43 +1022,251 @@
                       <section class="swiper-slide">
 
                           <div class="new-cont-wrap">
-                              <div class="box-pic-l">
-                                <div class="box-n-pic"></div>
-
-                                  <div class="info dflex">
-                                    <div class="left-l">
-                                        <div class="row-1">项 目</div>
-                                        <div class="row-2">盒 型</div>
-                                    </div>
-                                    <div class="left-c">
-                                      <div class="row-1">遇见萧山</div>
-                                      <div class="row-2">翻盖抽屉式包装盒</div>
-                                    </div>
-                                    <div class="left-r">
-                                        <div class="row-1">材质：原浆纸，白牛皮纸，磁铁</div>
-                                        <div class="row-2">工艺：印刷，烫金</div>
-                                        <div class="row-3">尺寸：245×160×110mm</div>
-                                    </div>
-                                  </div>
+                            <div class="box-pic-l">
+                              <div class="box-n-pic">
+                              <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/1.jpg" alt="">
                               </div>
-                              <div class="box-pic-r">
-                                  <div class="box-n-pic"></div>
-                                  <div class="box-n-pic"></div>
-                                  <div class="info dflex">
-                                    <div class="left-l">
-                                        原创
-                                        释义
-                                    </div>
-                                    <div class="left-r flex1">
-                                        全系列品牌包装盒LOGO定制体验，<br>让包装盒定制真正为品牌服务，<br>高端的奢侈品包装盒，您专业的选择。
-                                    </div>
+                            </div>
+                            <div class="box-pic-r">
+                                <div class="box-n-pic">
+                                  <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/1-1.jpg" alt="">
+                                </div>
+                                <div class="box-n-pic">
+                                  <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/1-2.jpg" alt="">
+                                </div>
+                            </div>
+                          </div>
+
+                            <div class="new-cont-wrap-info dflex">
+                              <div class="left-l">
+                                  <div class="row-1">盒 型</div>
+                                  <div class="row-2">规 格</div>
+                              </div>
+                              <div class="left-c">
+                                <div class="row-1">组盒式礼盒</div>
+                                <div class="row-2">尺寸：230×230×105mm</div>
+                              </div>
+                              <div class="left-r">
+                                  <div class="row-1">材质：2.0灰板、原浆纸，黑卡</div>
+                                  <div class="row-2">
+                                    <span style="margin-right:15px">工艺：UV、烫金</span>
+                                    <span>内托：上层350G特种纸，下层EVA裱特种纸</span>
+                                  </div>
+                                  <div class="row-3">
+                                    <span style="margin-right:5px">尺寸：1\侧板固定上下两层盒子</span>
+                                    <span style="margin-right:5px"> 2\上层盒子可以180度向右展开</span>
+                                    <span style="margin-right:5px">3\上下盒子高度可调</span>  
+                                           
                                   </div>
                               </div>
                             </div>
 
-
                       </section>
+
+
+                      <section class="swiper-slide">
+                        <div class="new-cont-wrap">
+                          <div class="box-pic-l">
+                            <div class="box-n-pic">
+                            <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/2.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="box-pic-r">
+                              <div class="box-n-pic">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/2-1.jpg" alt="">
+                              </div>
+                              <div class="box-n-pic">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/2-2.jpg" alt="">
+                              </div>
+                          </div>
+                        </div>
+                        <div class="new-cont-wrap-info dflex">
+                          <div class="left-l">
+                              <div class="row-1">盒 型</div>
+                              <div class="row-2">规 格</div>
+                          </div>
+                          <div class="left-c">
+                            <div class="row-1">组盒式礼盒</div>
+                            <div class="row-2">尺寸：270×190×65mm</div>
+                          </div>
+                          <div class="left-r">
+                              <div class="row-1">材质：2.5灰板、原浆纸</div>
+                              <div class="row-2">
+                                <span style="margin-right:15px">工艺：烫金</span>
+                                <span>内托：EVA裱绒</span>
+                              </div>
+                              <div class="row-3">
+                                <span style="margin-right:5px">尺寸：1\后背连接+丝带固定</span>
+                                <span style="margin-right:5px">2\内盒套内盒</span>  
+                                <span style="margin-right:5px">3\内盒根据物品高度可调</span>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+
+
+                      <section class="swiper-slide">
+                        <div class="new-cont-wrap">
+                          <div class="box-pic-l">
+                            <div class="box-n-pic">
+                            <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/3.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="box-pic-r">
+                              <div class="box-n-pic">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/3-1.jpg" alt="">
+                              </div>
+                              <div class="box-n-pic">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/3-2.jpg" alt="">
+                              </div>
+                          </div>
+                        </div>
+                        <div class="new-cont-wrap-info dflex">
+                          <div class="left-l">
+                              <div class="row-1">盒 型</div>
+                              <div class="row-2">规 格</div>
+                          </div>
+                          <div class="left-c">
+                            <div class="row-1">组盒式礼盒</div>
+                            <div class="row-2">尺寸：280×230×85mm</div>
+                          </div>
+                          <div class="left-r">
+                              <div class="row-1">材质：2.0灰板、157双铜印刷、黑卡纸、磁铁</div>
+                              <div class="row-2">
+                                <span style="margin-right:15px">工艺：复膜、印刷、UV、烫金 </span>
+                                <span>内托：上层EVA裱绒，下层珍珠棉裱绒</span>
+                              </div>
+                              <div class="row-3">
+                              备注：
+                                <span style="margin-right:5px">1\侧板固定上下两层盒子</span>
+                                <span style="margin-right:5px">2\上层盒子可以180度左右展开</span>  
+                                <span style="margin-right:5px">3\上下盒子高度可调</span>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+
+
+                      <section class="swiper-slide">
+                        <div class="new-cont-wrap">
+                          <div class="box-pic-l">
+                            <div class="box-n-pic">
+                            <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/4.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="box-pic-r">
+                              <div class="box-n-pic">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/4-1.jpg" alt="">
+                              </div>
+                              <div class="box-n-pic">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/4-2.jpg" alt="">
+                              </div>
+                          </div>
+                        </div>
+                        <div class="new-cont-wrap-info dflex">
+                          <div class="left-l">
+                              <div class="row-1">盒 型</div>
+                              <div class="row-2">规 格</div>
+                          </div>
+                          <div class="left-c">
+                            <div class="row-1">组盒式礼盒</div>
+                            <div class="row-2">尺寸：230×230×95mm</div>
+                          </div>
+                          <div class="left-r">
+                              <div class="row-1">材质：2.0灰板、原浆纸，黑卡</div>
+                              <div class="row-2">
+                                <span style="margin-right:15px">工艺：烫金</span>
+                                <span>内托：上层350G特种纸，下层EVA裱绒布</span>
+                              </div>
+                              <div class="row-3">
+                                备注：
+                                <span style="margin-right:5px">1\侧板固定上下两层盒子</span>
+                                <span style="margin-right:5px">2\上层盒子可以180度向右展开</span>  
+                                <span style="margin-right:5px">3\上下盒子高度可调</span>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+
+
+                      <section class="swiper-slide">
+                        <div class="new-cont-wrap">
+                          <div class="box-pic-l">
+                            <div class="box-n-pic">
+                            <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/5.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="box-pic-r">
+                              <div class="box-n-pic">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/5-1.jpg" alt="">
+                              </div>
+                              <div class="box-n-pic">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/5-2.jpg" alt="">
+                              </div>
+                          </div>
+                        </div>
+                        <div class="new-cont-wrap-info dflex">
+                          <div class="left-l">
+                              <div class="row-1">盒 型</div>
+                              <div class="row-2">规 格</div>
+                          </div>
+                          <div class="left-c">
+                            <div class="row-1">双开门书盒</div>
+                            <div class="row-2">330×240×55mm</div>
+                          </div>
+                          <div class="left-r">
+                              <div class="row-1">材质：2.0灰板、原浆纸，腰封300G金卡</div>
+                              <div class="row-2">
+                                <span style="margin-right:15px">工艺：烫金</span>
+                                <span>内托：EVA裱绒</span>
+                              </div>
+                              <div class="row-3">
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+
+
+                      <section class="swiper-slide">
+                        <div class="new-cont-wrap">
+                          <div class="box-pic-l">
+                            <div class="box-n-pic">
+                            <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/6.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="box-pic-r">
+                              <div class="box-n-pic">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/6-1.jpg" alt="">
+                              </div>
+                              <div class="box-n-pic">
+                                <img class='lazyPic' data-lazypicsrc="./static/img/pro/p3/6-2.jpg" alt="">
+                              </div>
+                          </div>
+                        </div>
+                        <div class="new-cont-wrap-info dflex">
+                          <div class="left-l">
+                              <div class="row-1">盒 型</div>
+                              <div class="row-2">规 格</div>
+                          </div>
+                          <div class="left-c">
+                            <div class="row-1">组盒式礼盒</div>
+                            <div class="row-2">430\330×275×110mm</div>
+                          </div>
+                          <div class="left-r">
+                              <div class="row-1">材质：2.5灰板、原浆纸，黑卡</div>
+                              <div class="row-2">
+                                <span style="margin-right:15px">工艺：UV、烫金</span>
+                                <span>内托：珍珠棉裱绒布</span>
+                              </div>
+                              <div class="row-3">
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                      
+
                   </div>
+                <div class="swiper-pagination s-pagination s-pagination-7"></div>
               </section>
 
           </div>
@@ -1140,13 +1286,6 @@
             <div class="col-xs-1 col-md-1 p-0"></div>
             <div class="cont-wrap contact-wrap col-xs-9 col-md-9 p-0">
 
-                <!-- <div class="top-link-wrap  ta-r">
-                  <a href="/" class="item">尚品包装</a>
-                  <span class="item-txt">·</span>
-                  <a href="javascript:;" class="item">沃霖印刷</a>
-                  <span class="item-txt">·</span>
-                  <a href="javascript:;" class="item">沃霖文创</a>
-                </div> -->
 
               <nav class="sub-nav"></nav>
               <div class="cont-1">
@@ -1158,7 +1297,7 @@
               <div class="cont-3">
                 <div class="shuiyin"></div>
                   <p>
-                    杭州尚有品包装有限公司（简称：尚品）座落于杭州市江干区，一家集原创包装策划、打样、定制、生产于一体的高档包装厂家，沉浸于包装行业20余年，拥有实体工厂的包装公司。采用流水线包装设备机械化生产，50余人的熟练操作工生产团队，确保包装的品质与完成效率。
+                  杭州尚有品包装有限公司（简称：尚品）座落于杭州市江干区，一家集原创包装策划、打样、定制、生产于一体的高档包装厂家，沉浸于包装行业20余年，拥有实体工厂的包装公司。采用流水线包装设备机械化生产，50余人的熟练操作工生产团队，确保包装的品质与完成效率。
                   </p>
                   <p>
                     尚品包装目前分有两类生产车间，一种以纸质产品包装为主的精装礼盒车间，另一种以布料和皮革为主的木箱盒车间。主营包装定制产品：包装盒、手提木箱、色卡等...适用于礼品、保健品、服装、化妆品、珠宝首饰、红酒、食品等行业包装。

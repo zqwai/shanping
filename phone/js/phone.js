@@ -5,6 +5,22 @@ var indexBanner = new Swiper ('.sp__banner', {
     pagination: {
         el: '.sp__pagination',
     },
+    // on: {
+    //     init: function(){
+    //       //Swiper初始化了
+    //     //   alert('当前的slide序号是'+this.realIndex);
+    //     //   this.emit('transitionEnd');//在初始化时触发一次transitionEnd事件，需要先设置transitionEnd
+    //       $('.item__qrcode, .item__product').removeClass('s_show');
+          
+    //     }, 
+    //     slideChangeTransitionStart: function(){
+    //         if(this.realIndex == 0){
+    //             $('.item__qrcode, .item__product').removeClass('s_show');
+    //           } else{
+    //             $('.item__qrcode, .item__product').addClass('s_show');
+    //           }
+    //       },
+    //   },
 });
 
 function newProSwiper (idWrap, idPag, count) {
@@ -13,8 +29,23 @@ function newProSwiper (idWrap, idPag, count) {
         slidesPerView : count,
         loop: true,
         pagination: {
-        el: idPag,
+            el: idPag,
         },
+    })
+};
+
+function newProSwiperLazy (idWrap, idPag, count) {
+    new Swiper ( idWrap, {
+        direction: 'horizontal',
+        slidesPerView : count,
+        loop: true,
+        pagination: {
+            el: idPag,
+        },
+        
+        watchSlidesProgress : true,
+        watchSlidesVisibility : true,
+        lazy: true,   
     })
 };
 
@@ -29,11 +60,13 @@ function topHeader(){
 }
 $(function(){
         
-    newProSwiper('.sp__pro_one', '.sp__pro_one_pagination', '1');
-    newProSwiper('.sp__pro_two', '.sp__pro_two_pagination', '2');
-    newProSwiper('.sp__pro_three', '.sp__pro_three_pagination', '3');
+    newProSwiperLazy('.sp__pro_one', '.sp__pro_one_pagination', '1');
+    newProSwiperLazy('.sp__pro_two', '.sp__pro_two_pagination', '1');
+    newProSwiperLazy('.sp__pro_three', '.sp__pro_three_pagination', '1');
+    newProSwiperLazy('.sp__pro_four', '.sp__pro_four_pagination', '1');
 
-    newProSwiper('.sp__pro_seven', '.sp__pro_seven_pagination', '1');
+    newProSwiperLazy('.sp__pro_seven', '.sp__pro_seven_pagination', '1');
+    newProSwiperLazy('.sp__pro_eight', '.sp__pro_eight_pagination', '1');
     
     // 添加cookie
     // var oDate = new Date();
@@ -77,4 +110,26 @@ $(function(){
     $(window).scroll(function(e){
         topHeader();
     })
+    // $('#dowebok').viewer();
 })
+
+// loading img
+function lazyLoadImg(pageId){
+  var imgs = Array.from(document.querySelectorAll('.page'+ pageId +' img[data-lazypicsrc]'));
+  // var baseUrl = 'http://sypbz.com/';
+  var loadingImg = './static/img/loading.gif'
+  imgs.forEach(function(item,index){
+    // item.setAttribute('src', loadingImg)
+    console.log(item.dataset.lazypicsrc)
+    if(item.src === '' || item.src === null){
+      if(item.dataset.lazypicsrc === '' || item.dataset.lazypicsrc === null){
+        item.setAttribute('src', loadingImg)
+      } else {
+        item.setAttribute('src', item.dataset.lazypicsrc);
+        console.log()
+      }
+    } else {
+      return false;
+    }
+  })
+}

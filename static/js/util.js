@@ -27,6 +27,8 @@ function init () {
   recommend('.recommend-1', '.s-pagination-1',)
   // recommend('.recommend-2', '.s-pagination-2')
   recommend('.recommend-5', '.s-pagination-5',)
+  recommend('.recommend-7', '.s-pagination-7',)
+  
   // 载入 页面定位
   $('.containter').animate({'top': '-100%'}, 500);
   $('.main-wrap').removeClass('page-lock');
@@ -61,7 +63,7 @@ function init () {
       lock=false;
       setTimeout(function  () {
         lock=true;
-      },1000);
+      },300);
     }
   })
   $('.side-menus ul li').click(function(event) {
@@ -89,6 +91,24 @@ function init () {
     $('.main-wrap').addClass('page-lock');
     nowpage=0;
   })
+  // 客服二维码 右侧浮窗
+  $(".swt-fr .qrcode").hover(function(){
+    $('.qrcode-big').stop().animate({
+      width:'200px',
+      height: '211px'
+    });
+    $(this).stop().animate({
+      opacity:'0'
+    });
+  },function(){
+    $('.qrcode-big').stop().animate({
+      width:'0',
+      height: '0'
+    });
+    $(this).stop().animate({
+      opacity:'1'
+    });
+  });
 }
 // loading
 //加载状态为complete时移除loading效果
@@ -96,6 +116,31 @@ function completeLoading() {
   if (document.readyState == "complete") {
     var loadingMask = document.getElementById('loadingDiv');
     loadingMask.parentNode.removeChild(loadingMask);
+  }
+}
+// 收藏家
+function addFavorite2() {
+  var url = window.location;
+  var title = document.title;
+  var ua = navigator.userAgent.toLowerCase();
+  if (ua.indexOf("360se") > -1) {
+      alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
+  }
+  else if (ua.indexOf("msie 8") > -1) {
+      window.external.AddToFavoritesBar(url, title); //IE8
+  }
+  else if (document.all) {
+try{
+ window.external.addFavorite(url, title);
+}catch(e){
+ alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+}
+  }
+  else if (window.sidebar) {
+      window.sidebar.addPanel(title, url, "");
+  }
+  else {
+alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
   }
 }
 // index Swiper

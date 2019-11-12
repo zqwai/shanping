@@ -1,7 +1,7 @@
 
   <header id="topHeader" class="topheader">
     <div class="nwrap">
-      <div class="logo-wrap">
+      <div class="logo-wrap" style="width:30%">
         <a class="logo" href="/"></a><span class="slogan-2"></span>
       </div>
       <nav class="topnav">
@@ -9,7 +9,8 @@
           
           <li>
             <a href="/" class="cur">
-              <span class="tit">首页</span>
+              <span class="tit">返回首页</span>
+              <span class="txt">HOME</span>
             </a>
           </li>
           <li>
@@ -34,12 +35,12 @@
               </ul>
             </div>
           </li>
-          <li>
+          <!-- <li>
             <a href="productshow.php?cid=1&id=14">
               <span class="tit">快速打样</span>
               <span class="txt">壹个起做</span>
             </a>
-          </li>
+          </li> -->
           <li>
             <a href="productshow.php?cid=1&id=15">
               <span class="tit">盒型样式</span>
@@ -51,12 +52,12 @@
               </ul>
             </div>
           </li>
-          <li>
+          <!-- <li>
             <a href="javacript:;">
               <span class="tit">包装辅料</span>
               <span class="txt">物尽其用</span>
             </a>
-          </li>
+          </li> -->
           <li>
             <a href="productshow.php?cid=2&id=20">
               <span class="tit">卡纸瓦盒</span>
@@ -68,18 +69,19 @@
               </ul>
             </div>
           </li>
-          <li>
+          <!-- <li>
             <a href="javacript:;">
               <span class="tit">最新样品</span>
               <span class="txt">原创包装</span>
             </a>
-          </li>
-          <li>
+          </li> -->
+          <!-- <li>
             <a href="javacript:;">
               <span class="tit">联系</span>
             </a>
-          </li>
+          </li> -->
         </ul>
       </nav>
+      <div style="width:20%"></div>
     </div>
   </header>

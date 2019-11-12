@@ -1079,7 +1079,6 @@ body{
 }
 .new-cont-wrap .box-pic-l{
   width: 35.75vw;
-  height: 100%;
 }
 .new-cont-wrap .box-pic-l .box-n-pic{
   width: 100%;
@@ -1089,7 +1088,6 @@ body{
 .new-cont-wrap .box-pic-r{
   width: 20vw;
   padding-left: .2vw;
-  height: 100%;
 }
 .new-cont-wrap .box-pic-r .box-n-pic{
   padding-bottom: 1vw;
@@ -1102,95 +1100,96 @@ body{
 .new-cont-wrap .box-pic-l .box-n-pic,
 .new-cont-wrap .box-pic-r .box-n-pic,
 .new-cont-wrap .box-pic-l .box-n-pic{
-  background-color: #3a9066;
+  background-color: #ddd;
+  border: 1px solid #ddd;
 }
-.new-cont-wrap .info{
+.new-cont-wrap-info{
   border: 1px solid #ccc;
   width: 100%;
   margin-top: .5rem;
   height: 10vh;
   font-size: 1.2rem;
 }
-.new-cont-wrap .info .left-l{
+.new-cont-wrap-info .left-l{
   width: 20%;
   border-right: 1px solid #ccc;
 }
-.new-cont-wrap .info .left-c{
+.new-cont-wrap-info .left-c{
   width: 30%;
   border-right: 1px solid #ccc;
 }
-.new-cont-wrap .info .left-r{
+.new-cont-wrap-info .left-r{
   width: 50%;
 }
 
-.new-cont-wrap .info .left-l .row-1,
-.new-cont-wrap .info .left-l .row-2,
-.new-cont-wrap .info .left-c .row-1,
-.new-cont-wrap .info .left-c .row-2,
-.new-cont-wrap .info .left-r .row-1,
-.new-cont-wrap .info .left-r .row-2,
-.new-cont-wrap .info .left-r .row-3{
+.new-cont-wrap-info .left-l .row-1,
+.new-cont-wrap-info .left-l .row-2,
+.new-cont-wrap-info .left-c .row-1,
+.new-cont-wrap-info .left-c .row-2,
+.new-cont-wrap-info .left-r .row-1,
+.new-cont-wrap-info .left-r .row-2,
+.new-cont-wrap-info .left-r .row-3{
   padding: .5rem
 }
-.new-cont-wrap .info .left-l .row-1,
-.new-cont-wrap .info .left-l .row-2,
-.new-cont-wrap .info .left-c .row-1,
-.new-cont-wrap .info .left-c .row-2{
+.new-cont-wrap-info .left-l .row-1,
+.new-cont-wrap-info .left-l .row-2,
+.new-cont-wrap-info .left-c .row-1,
+.new-cont-wrap-info .left-c .row-2{
   height: 50%;
 }
-.new-cont-wrap .info .left-l .row-1,
-/* .new-cont-wrap .info .left-l .row-2, */
-.new-cont-wrap .info .left-c .row-1,
-.new-cont-wrap .info .left-r .row-1,
-.new-cont-wrap .info .left-r .row-2{
+.new-cont-wrap-info .left-l .row-1,
+/* .new-cont-wrap-info .left-l .row-2, */
+.new-cont-wrap-info .left-c .row-1,
+.new-cont-wrap-info .left-r .row-1,
+.new-cont-wrap-info .left-r .row-2{
   border-bottom: 1px solid #ccc;
 }
-.new-cont-wrap .info .left-r .row-1,
-.new-cont-wrap .info .left-r .row-2,
-.new-cont-wrap .info .left-r .row-3{
+.new-cont-wrap-info .left-r .row-1,
+.new-cont-wrap-info .left-r .row-2,
+.new-cont-wrap-info .left-r .row-3{
   height: 33.333333%;
 }
 
 
 
 
-.new-cont-wrap .info .left-l{
-  width: 20%;
+.new-cont-wrap-info .left-l{
+  width: 7%;
   border-right: 1px solid #ccc;
 }
-.new-cont-wrap .info .left-c{
+.new-cont-wrap-info .left-c{
   width: 30%;
   border-right: 1px solid #ccc;
 }
-.new-cont-wrap .info .left-r{
-  width: 50%;
+.new-cont-wrap-info .left-r{
+  width: 63%;
 }
 
-.new-cont-wrap .info .left-l .row-1,
-.new-cont-wrap .info .left-l .row-2,
-.new-cont-wrap .info .left-c .row-1,
-.new-cont-wrap .info .left-c .row-2,
-.new-cont-wrap .info .left-r .row-1,
-.new-cont-wrap .info .left-r .row-2,
-.new-cont-wrap .info .left-r .row-3{
+.new-cont-wrap-info .left-l .row-1,
+.new-cont-wrap-info .left-l .row-2,
+.new-cont-wrap-info .left-c .row-1,
+.new-cont-wrap-info .left-c .row-2,
+.new-cont-wrap-info .left-r .row-1,
+.new-cont-wrap-info .left-r .row-2,
+.new-cont-wrap-info .left-r .row-3{
   padding: .5rem
 }
-.new-cont-wrap .info .left-l .row-1,
-.new-cont-wrap .info .left-l .row-2,
-.new-cont-wrap .info .left-c .row-1,
-.new-cont-wrap .info .left-c .row-2{
+.new-cont-wrap-info .left-l .row-1,
+.new-cont-wrap-info .left-l .row-2,
+.new-cont-wrap-info .left-c .row-1,
+.new-cont-wrap-info .left-c .row-2{
   height: 50%;
 }
-.new-cont-wrap .info .left-l .row-1,
-/* .new-cont-wrap .info .left-l .row-2, */
-.new-cont-wrap .info .left-c .row-1,
-.new-cont-wrap .info .left-r .row-1,
-.new-cont-wrap .info .left-r .row-2{
+.new-cont-wrap-info .left-l .row-1,
+/* .new-cont-wrap-info .left-l .row-2, */
+.new-cont-wrap-info .left-c .row-1,
+.new-cont-wrap-info .left-r .row-1,
+.new-cont-wrap-info .left-r .row-2{
   border-bottom: 1px solid #ccc;
 }
-.new-cont-wrap .info .left-r .row-1,
-.new-cont-wrap .info .left-r .row-2,
-.new-cont-wrap .info .left-r .row-3{
+.new-cont-wrap-info .left-r .row-1,
+.new-cont-wrap-info .left-r .row-2,
+.new-cont-wrap-info .left-r .row-3{
   height: 33.333333%;
 }
 
@@ -1254,10 +1253,62 @@ body{
   color: #fff;
   z-index: 49;
 }
+.swt-fr .qrcode{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 13;
+}
+.swt-fr .qrcode-big{
+  width: 0;
+  height: 0;
+  margin-top: 4px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 11;
+  box-shadow: 0px 0px 3px 1px #ddd;
+  background-color: #fff;
+  background: url(../img/logo/qrcode.png) center center no-repeat rgb(255, 255, 255);
+  background-size:auto 90%; 
+}
 
 
-
-
+/* i__pic_cont */
+.i__pic_cont{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.i__pic_cont .i__link{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+.i__pic_cont .i_pic{
+  width: 100%;
+  height: auto;
+}
+.i__pic_cont .i_pic_1{
+  background: url(../img/page/1-0/index_01.jpg) no-repeat center top;
+  height: 169px;
+}
+.i__pic_cont .i_pic_2{
+  background: url(../img/page/1-0/index_02.jpg) no-repeat center top;
+  height: 139px;
+}
+.i__pic_cont .i_pic_3{
+  background: url(../img/page/1-0/index_03.jpg) no-repeat center top;
+  height: 177px;
+}
+.i__pic_cont .i_pic_4{
+  background: url(../img/page/1-0/index_04.png) no-repeat center top;
+  height: 484px;
+}
 
 
 
@@ -1308,7 +1359,7 @@ body{
     font-size: 1.3rem;
   }
   .recommend ul.recommend-inline li a.hover .t-txt-hover{
-    top: 18%;
+    top: 12%;
   }
   .page8 .slogan{
     display: none;
@@ -1417,14 +1468,12 @@ body{
   }
 
   .new-cont-wrap{
-    height: 100%;
+    /* height: 100%; */
   }
   .new-cont-wrap .box-pic-l{
-    height: 100%;
     width: 700px;
   }
   .new-cont-wrap .box-pic-r{
-    height: 100%;
     width: 385px;
   }
   .new-cont-wrap .box-pic-l .box-n-pic{
@@ -1440,12 +1489,12 @@ body{
   .new-cont-wrap .box-pic-r .box-n-pic:nth-child(1){
     margin-bottom:5px;
   }
-  .new-cont-wrap .box-pic-l .box-n-pic,
+  /* .new-cont-wrap .box-pic-l .box-n-pic,
   .new-cont-wrap .box-pic-r .box-n-pic,
   .new-cont-wrap .box-pic-l .box-n-pic{
     background-color: #3a9066;
-  }
-  .new-cont-wrap .info{
+  } */
+  .new-cont-wrap-info{
     height: 70px;
   }
 
